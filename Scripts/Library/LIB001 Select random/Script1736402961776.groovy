@@ -17,21 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.URL)
+Random rand = new Random()
 
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Spesific/btn Login'))
-
-WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@name', ('val') : 'loginfmt']), GlobalVariable.USERNAME)
-
-WebUI.click(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']))
-
-WebUI.setEncryptedText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@name', ('val') : 'passwd']), GlobalVariable.PASSWORD)
-
-WebUI.click(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']))
-
-WebUI.waitForElementClickable(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']), 5)
-
-WebUI.click(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']))
+WebUI.acceptAlert()
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LIB001 Select random</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9ab767ad-d90b-4549-b83e-14a9f4c30f4e</testCaseGuid>
+</TestCaseEntity>

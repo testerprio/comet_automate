@@ -17,21 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.URL)
+WebUI.callTestCase(findTestCase('Reused TC/RTC001 Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Spesific/MenuMain', [('mainMenu') : 'Customer Registration']))
 
-WebUI.click(findTestObject('Spesific/btn Login'))
+WebUI.click(findTestObject('Spesific/MenuSub', [('subMenu') : 'Hybrid Customer']))
 
-WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@name', ('val') : 'loginfmt']), GlobalVariable.USERNAME)
-
-WebUI.click(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']))
-
-WebUI.setEncryptedText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@name', ('val') : 'passwd']), GlobalVariable.PASSWORD)
-
-WebUI.click(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']))
-
-WebUI.waitForElementClickable(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']), 5)
-
-WebUI.click(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']))
-
+WebUI.click(findTestObject('Spesific/MenuSub', [('subMenu') : 'Hybrid Registration']))
