@@ -17,20 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reused TC/2. Credential/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@formcontrolname', ('val') : 'name']), payerName)
 
-WebUI.click(findTestObject('Spesific/MenuMain', [('mainMenu') : 'Customer Registration']))
+WebUI.callTestCase(findTestCase('Reused TC/1. General/Select dropdown by Value'), [('selectName') : 'paymentType', ('valueofOption') : paymentType], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Spesific/MenuSub', [('subMenu') : 'Hybrid Customer']))
+WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@formcontrolname', ('val') : 'email']), payerEmail)
 
-WebUI.click(findTestObject('Spesific/MenuSub', [('subMenu') : 'Hybrid Activation']))
+WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@formcontrolname', ('val') : 'phoneNumber']), 
+    payerPhoneNumber)
 
-WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@formcontrolname', ('val') : 'searchValue']), 
-    msisdn)
+WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@formcontrolname', ('val') : 'financialAccountName']), 
+    financialAccountName)
 
-WebUI.click(findTestObject('General/obj', [('obj') : 'button', ('attr') : '@type', ('val') : 'submit']))
+WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@formcontrolname', ('val') : 'billingAccountName']), 
+    billingAccountName)
+
+WebUI.callTestCase(findTestCase('Reused TC/1. General/Select dropdown by Value'), [('selectName') : 'cycleCode', ('valueofOption') : cycleCode], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('General/obj contains', [('obj') : 'button', ('attr') : 'text()', ('val') : 'Activate']))
+WebUI.click(findTestObject('General/obj contains', [('obj') : 'button', ('attr') : 'text()', ('val') : 'Next']))
 

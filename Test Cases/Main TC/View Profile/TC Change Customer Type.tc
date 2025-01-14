@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Change Customer Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eada37de-7c8e-4334-8cc7-67e7ee9c2d37</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9d70dac6-23d9-446b-8bba-a487a267a7df</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>808da185-5710-4562-89e6-9723e61ce2e8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a0b4b20a-c9cb-431e-8903-d83f4a488223</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'6281977777627'</defaultValue>
+      <description></description>
+      <id>9d70dac6-23d9-446b-8bba-a487a267a7df</id>
+      <masked>false</masked>
+      <name>msisdn</name>
+   </variable>
+   <variable>
+      <defaultValue>'Corporate-Regular'</defaultValue>
+      <description></description>
+      <id>808da185-5710-4562-89e6-9723e61ce2e8</id>
+      <masked>false</masked>
+      <name>customerType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Corporate-Regular'</defaultValue>
+      <description></description>
+      <id>a0b4b20a-c9cb-431e-8903-d83f4a488223</id>
+      <masked>false</masked>
+      <name>subType</name>
+   </variable>
+</TestCaseEntity>

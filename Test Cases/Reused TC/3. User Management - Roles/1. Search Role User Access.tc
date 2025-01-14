@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. Search Role User Access</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bac419d7-90a2-422d-b804-3312e73a12d3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b48ae420-43bc-4e46-8419-d7fb40db1cb4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>395785cd-1f19-47cd-8197-6be512f6a908</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>701fd385-9a6a-4457-8eec-15141c97c297</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Sales Agent'</defaultValue>
+      <description></description>
+      <id>b48ae420-43bc-4e46-8419-d7fb40db1cb4</id>
+      <masked>false</masked>
+      <name>appType</name>
+   </variable>
+   <variable>
+      <defaultValue>'XL Center'</defaultValue>
+      <description></description>
+      <id>395785cd-1f19-47cd-8197-6be512f6a908</id>
+      <masked>false</masked>
+      <name>agentCategory</name>
+   </variable>
+   <variable>
+      <defaultValue>'XLC Sanity'</defaultValue>
+      <description></description>
+      <id>701fd385-9a6a-4457-8eec-15141c97c297</id>
+      <masked>false</masked>
+      <name>roleId</name>
+   </variable>
+</TestCaseEntity>

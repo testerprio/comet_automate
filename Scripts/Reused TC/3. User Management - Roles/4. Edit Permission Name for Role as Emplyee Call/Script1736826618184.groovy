@@ -17,20 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reused TC/2. Credential/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+List<WebElement> arr = WebUI.findWebElements(listObject, 10)
 
-WebUI.click(findTestObject('Spesific/MenuMain', [('mainMenu') : 'Customer Registration']))
+valueofOption[0] = Menu1
+valueofOption[1] = Menu2
+valueofOption[2] = Payment1
+valueofOption[3] = Payment2
+valueofOption[4] = Prioritas1
+valueofOption[5] = Prioritas2
+valueofOption[6] = Prioritas3
+valueofOption[7] = ''
+valueofOption[8] = ''
+valueofOption[9] = ''
 
-WebUI.click(findTestObject('Spesific/MenuSub', [('subMenu') : 'Hybrid Customer']))
+for(int i=0; i<arr.size();i++) {
 
-WebUI.click(findTestObject('Spesific/MenuSub', [('subMenu') : 'Hybrid Activation']))
+	arr[i].click()
+	
+	WebUI.click(findTestObject('Spesific/p-dropdownitem', [('optionName') : valueofOption[i]]))
 
-WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@formcontrolname', ('val') : 'searchValue']), 
-    msisdn)
-
-WebUI.click(findTestObject('General/obj', [('obj') : 'button', ('attr') : '@type', ('val') : 'submit']))
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('General/obj contains', [('obj') : 'button', ('attr') : 'text()', ('val') : 'Activate']))
+}
 

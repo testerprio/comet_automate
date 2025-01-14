@@ -19,18 +19,32 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Reused TC/2. Credential/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Spesific/MenuMain', [('mainMenu') : 'Customer Registration']))
+WebUI.click(findTestObject('Spesific/MenuMain', [('mainMenu') : 'Customer Support']))
 
-WebUI.click(findTestObject('Spesific/MenuSub', [('subMenu') : 'Hybrid Customer']))
-
-WebUI.click(findTestObject('Spesific/MenuSub', [('subMenu') : 'Hybrid Activation']))
+WebUI.click(findTestObject('Spesific/MenuSub', [('subMenu') : 'View Profile']))
 
 WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@formcontrolname', ('val') : 'searchValue']), 
     msisdn)
 
-WebUI.click(findTestObject('General/obj', [('obj') : 'button', ('attr') : '@type', ('val') : 'submit']))
+WebUI.click(findTestObject('General/obj contains', [('obj') : 'button', ('attr') : 'text()', ('val') : 'Search']))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('General/obj contains', [('obj') : 'button', ('attr') : 'text()', ('val') : 'Activate']))
+WebUI.click(findTestObject('Spesific/View Profile/Icon editCustType'))
+
+WebUI.callTestCase(findTestCase('Reused TC/1. General/Select dropdown by Value'), [('selectName') : 'type', ('valueofOption') : customerType], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(3)
+
+WebUI.callTestCase(findTestCase('Reused TC/1. General/Select dropdown by Value'), [('selectName') : 'subType', ('valueofOption') : subType], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('General/obj contains', [('obj') : 'button', ('attr') : 'text()', ('val') : 'Submit']))
+
+WebUI.waitForAlert(3)
+
+WebUI.takeScreenshot()
 

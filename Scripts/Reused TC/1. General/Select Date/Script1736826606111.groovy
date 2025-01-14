@@ -17,20 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reused TC/2. Credential/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('General/obj', [('obj') : 'p-calendar', ('attr') : '@formcontrolname', ('val') : calendarName]))
 
-WebUI.click(findTestObject('Spesific/MenuMain', [('mainMenu') : 'Customer Registration']))
+WebUI.selectOptionByValue(findTestObject('General/obj contains', [('obj') : 'select', ('attr') : '@class', ('val') : 'datepicker-month']), 
+    mm, false)
 
-WebUI.click(findTestObject('Spesific/MenuSub', [('subMenu') : 'Hybrid Customer']))
+WebUI.selectOptionByValue(findTestObject('General/obj contains', [('obj') : 'select', ('attr') : '@class', ('val') : 'datepicker-year']), 
+    yyyy, false)
 
-WebUI.click(findTestObject('Spesific/MenuSub', [('subMenu') : 'Hybrid Activation']))
-
-WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@formcontrolname', ('val') : 'searchValue']), 
-    msisdn)
-
-WebUI.click(findTestObject('General/obj', [('obj') : 'button', ('attr') : '@type', ('val') : 'submit']))
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('General/obj contains', [('obj') : 'button', ('attr') : 'text()', ('val') : 'Activate']))
+WebUI.click(findTestObject('Spesific/datepicker date', [('date') : dd]))
 

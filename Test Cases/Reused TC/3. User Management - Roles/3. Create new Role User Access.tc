@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3. Create new Role User Access</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>24c95984-ae00-4e9e-b687-0d49fd016b51</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1fbb10d3-2ef6-40d6-aaa8-520ddf8f2247</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa20d977-589e-40ce-8aaf-cd7a7fd239e3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8e80931-bbd7-4a13-9ae4-71a7acc90b32</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1fbb10d3-2ef6-40d6-aaa8-520ddf8f2247</id>
+      <masked>false</masked>
+      <name>appType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aa20d977-589e-40ce-8aaf-cd7a7fd239e3</id>
+      <masked>false</masked>
+      <name>roleName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e8e80931-bbd7-4a13-9ae4-71a7acc90b32</id>
+      <masked>false</masked>
+      <name>roleDescription</name>
+   </variable>
+</TestCaseEntity>

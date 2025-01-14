@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LIB002 Split date to Array</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a98f1693-04d4-4dd7-bac8-944b62dae4ab</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d8c8c55-7467-4931-b2f2-d7541210f81d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba5f7866-f5ec-4f56-b643-74307c4fc3bb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'01/16/1957'</defaultValue>
+      <description>Format date : mm/dd/yyyy</description>
+      <id>1d8c8c55-7467-4931-b2f2-d7541210f81d</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>ba5f7866-f5ec-4f56-b643-74307c4fc3bb</id>
+      <masked>false</masked>
+      <name>splitDate</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2.a Create new User for Comet</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>282a2d15-e99e-4843-b35f-b78f9293149b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>78f3ec53-87ef-4881-aa89-ca07774cbc29</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3cbaca97-2531-498f-a8a7-a81f0326b116</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38aa71d1-59b1-4cd5-813f-1e05fb197a7c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'xl.test2@xl.co.id'</defaultValue>
+      <description></description>
+      <id>78f3ec53-87ef-4881-aa89-ca07774cbc29</id>
+      <masked>false</masked>
+      <name>input</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>3cbaca97-2531-498f-a8a7-a81f0326b116</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'XLC PIM2'</defaultValue>
+      <description></description>
+      <id>38aa71d1-59b1-4cd5-813f-1e05fb197a7c</id>
+      <masked>false</masked>
+      <name>cometMokaposOutletId</name>
+   </variable>
+</TestCaseEntity>

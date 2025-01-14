@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2. Select Price Plan page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d1751f15-e88f-4df4-9125-4a341cdceff2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea31ca36-b708-4723-be77-a54caf356cf9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e816a219-18c4-40df-9cbc-218f2fe63e08</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>ea31ca36-b708-4723-be77-a54caf356cf9</id>
+      <masked>false</masked>
+      <name>isESIM</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e816a219-18c4-40df-9cbc-218f2fe63e08</id>
+      <masked>false</masked>
+      <name>mainContractAO</name>
+   </variable>
+</TestCaseEntity>

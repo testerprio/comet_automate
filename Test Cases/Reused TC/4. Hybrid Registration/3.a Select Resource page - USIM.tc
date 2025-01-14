@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3.a Select Resource page - USIM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d4eb7ee-fa06-44ef-a1bb-b9e8c87262ea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>399c7c72-8594-43ed-9af6-62a497cc08bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d5eaf81b-91ff-4116-b245-6df111bcd010</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>399c7c72-8594-43ed-9af6-62a497cc08bf</id>
+      <masked>false</masked>
+      <name>msisdn</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d5eaf81b-91ff-4116-b245-6df111bcd010</id>
+      <masked>false</masked>
+      <name>iccid</name>
+   </variable>
+</TestCaseEntity>

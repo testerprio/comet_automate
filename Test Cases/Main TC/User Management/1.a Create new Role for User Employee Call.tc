@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1.a Create new Role for User Employee Call</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2058e526-f887-43c2-8c55-6787aa8ba3f6</testCaseGuid>
+</TestCaseEntity>

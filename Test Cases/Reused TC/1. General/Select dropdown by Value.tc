@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select dropdown by Value</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e996dac0-1f78-45e5-ab72-b5cc091298fa</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c594f267-50f3-4aa0-853d-4172399831c5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f40ed7d4-058a-4738-8d30-44c3eb0b4460</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c594f267-50f3-4aa0-853d-4172399831c5</id>
+      <masked>false</masked>
+      <name>selectName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f40ed7d4-058a-4738-8d30-44c3eb0b4460</id>
+      <masked>false</masked>
+      <name>valueofOption</name>
+   </variable>
+</TestCaseEntity>
