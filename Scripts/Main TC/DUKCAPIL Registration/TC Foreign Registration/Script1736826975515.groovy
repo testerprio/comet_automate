@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reused TC/2. Credential/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reused TC/2. Credential/Login'), [('username') : user, ('encriptPassword') : pass], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Spesific/MenuMain', [('mainMenu') : 'Customer Registration']))
 
@@ -62,6 +62,4 @@ WebUI.click(findTestObject('General/obj contains', [('obj') : 'button', ('attr')
 WebUI.waitForAlert(3)
 
 WebUI.takeScreenshot()
-
-WebUI.callTestCase(findTestCase('Reused TC/2. Credential/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -23,15 +23,28 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Spesific/btn Login'))
 
-WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@name', ('val') : 'loginfmt']), GlobalVariable.USERNAME)
+WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@name', ('val') : 'loginfmt']), username)
 
 WebUI.click(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']))
 
-WebUI.setEncryptedText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@name', ('val') : 'passwd']), GlobalVariable.PASSWORD)
+WebUI.setEncryptedText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@name', ('val') : 'passwd']), encriptPassword)
 
 WebUI.click(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']))
 
-WebUI.waitForElementClickable(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']), 5)
+if (WebUI.verifyElementPresent(findTestObject('General/obj', [('obj') : 'div', ('attr') : '@id', ('val') : 'idDiv_SAOTCAS_Description']), 
+    5, FailureHandling.OPTIONAL)) {
+    WebUI.delay(8)
+}
+
+if (WebUI.verifyElementPresent(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@name', ('val') : 'otc']), 
+    5, FailureHandling.OPTIONAL)) {
+    WebUI.waitForElementHasAttribute(findTestObject(null), 'text()', 20)
+
+    WebUI.click(findTestObject('General/obj contains', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSubmit']))
+}
+
+WebUI.waitForElementClickable(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']), 
+    5)
 
 WebUI.click(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']))
 

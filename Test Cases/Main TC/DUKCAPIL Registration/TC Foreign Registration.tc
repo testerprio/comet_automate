@@ -10,6 +10,18 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>bc6c0305-b81e-4732-bb7e-9c13e0ca6450</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b2eea6ec-9ddf-4ab9-9b7e-f4644739b67c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>f778f09f-8ce4-49ec-83f3-d792497ba0e7</variableId>
    </variableLinks>
    <variableLinks>
@@ -67,7 +79,21 @@
       <variableId>4cfa0712-6670-4f5f-bed8-3d32888fe1ef</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'6287889607103'</defaultValue>
+      <defaultValue>findTestData('Internal Data/User Login').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>bc6c0305-b81e-4732-bb7e-9c13e0ca6450</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Internal Data/User Login').getValue(2, 2)</defaultValue>
+      <description></description>
+      <id>b2eea6ec-9ddf-4ab9-9b7e-f4644739b67c</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>'6287716434781'</defaultValue>
       <description></description>
       <id>f778f09f-8ce4-49ec-83f3-d792497ba0e7</id>
       <masked>false</masked>
@@ -81,7 +107,7 @@
       <name>IDType</name>
    </variable>
    <variable>
-      <defaultValue>'100112'</defaultValue>
+      <defaultValue>'1023903203020320'</defaultValue>
       <description></description>
       <id>991fd570-8f80-4454-b226-cafc2795615e</id>
       <masked>false</masked>
@@ -130,7 +156,7 @@
       <name>puk</name>
    </variable>
    <variable>
-      <defaultValue>'Maldives'</defaultValue>
+      <defaultValue>'Brunei'</defaultValue>
       <description></description>
       <id>4cfa0712-6670-4f5f-bed8-3d32888fe1ef</id>
       <masked>false</masked>

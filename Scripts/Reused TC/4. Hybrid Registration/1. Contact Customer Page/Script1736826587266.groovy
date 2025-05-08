@@ -28,6 +28,8 @@ WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@for
 
 WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@formcontrolname', ('val') : 'email']), email)
 
+List<String> dobSplit
+
 dobSplit = WebUI.callTestCase(findTestCase('Library/LIB002 Split date to Array'), [('date') : dateOfBirth, ('splitDate') : ''], 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -37,7 +39,13 @@ for (int i = 0; i < dobSplit.size(); i++) {
 
 WebUI.callTestCase(findTestCase('Reused TC/1. General/Select Date'), [('calendarName') : 'dateOfBirth', ('yyyy') : dobSplit[
         2], ('mm') : dobSplit[0], ('dd') : dobSplit[1]], FailureHandling.CONTINUE_ON_FAILURE)
-
+if(isResidentialRegistration == true) {
+	WebUI.callTestCase(findTestCase('Reused TC/1. General/Select dropdown by Value'), [('selectName') : 'customerType', ('valueofOption') : customerType], 
+	    FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('Reused TC/1. General/Select dropdown by Value'), [('selectName') : 'customerSubType', ('valueofOption') : customerSubType], 
+	    FailureHandling.STOP_ON_FAILURE)
+}
 WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@formcontrolname', ('val') : 'buildingName']), 
     buildingName)
 
@@ -64,6 +72,8 @@ WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@for
 WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@formcontrolname', ('val') : 'issuingAuthority']), 
     issuingAuthority)
 
+List<String> splitValidCardIDDate
+
 splitValidCardIDDate = WebUI.callTestCase(findTestCase('Library/LIB002 Split date to Array'), [('date') : validTill, ('splitDate') : []], 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -75,9 +85,8 @@ if (isWNA == false) {
 } else {
     WebUI.check(findTestObject('General/obj', [('obj') : 'p-checkbox', ('attr') : '@formcontrolname', ('val') : 'foreignIndicator']))
 
-	WebUI.callTestCase(findTestCase('Reused TC/1. General/Select dropdown by Value'), [('selectName') : 'issuingType', ('valueofOption') : issuingType],
-		FailureHandling.STOP_ON_FAILURE)
-	
+    WebUI.callTestCase(findTestCase('Reused TC/1. General/Select dropdown by Value'), [('selectName') : 'issuingType', ('valueofOption') : issuingType], 
+        FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@formcontrolname', ('val') : 'identificationID']), 
@@ -86,3 +95,4 @@ WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@for
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('General/obj contains', [('obj') : 'button', ('attr') : 'text()', ('val') : 'Next']), FailureHandling.STOP_ON_FAILURE)
+

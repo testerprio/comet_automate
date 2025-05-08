@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>2bc1bc89-9b01-4631-ad12-306dda903966</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9120fb1-16d7-4165-9d18-cb40c9466188</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cf377009-073d-4c48-bfb5-5ffff981f3e7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f9120fb1-16d7-4165-9d18-cb40c9466188</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cf377009-073d-4c48-bfb5-5ffff981f3e7</id>
+      <masked>false</masked>
+      <name>encriptPassword</name>
+   </variable>
 </TestCaseEntity>

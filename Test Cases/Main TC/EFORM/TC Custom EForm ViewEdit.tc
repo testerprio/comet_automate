@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Custom EForm ViewEdit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d29812ef-2d87-49c2-8b21-dec778112836</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae1d2412-ef86-49b2-9bec-7ffd654145e3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5f7f8c0-666a-42a7-a3a2-019c7e87d23a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f924472f-1592-4987-b666-75ddd1b65c1a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Internal Data/User Login').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ae1d2412-ef86-49b2-9bec-7ffd654145e3</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Internal Data/User Login').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>e5f7f8c0-666a-42a7-a3a2-019c7e87d23a</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f924472f-1592-4987-b666-75ddd1b65c1a</id>
+      <masked>false</masked>
+      <name>formName</name>
+   </variable>
+</TestCaseEntity>

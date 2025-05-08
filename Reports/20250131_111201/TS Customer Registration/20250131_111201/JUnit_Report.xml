@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS Customer Registration" time="449.906" tests="5" failures="0" errors="0">
+   <testsuite name="TS Customer Registration" tests="5" failures="0" errors="0" time="449.906" skipped="0" timestamp="31-01-2025T11:12:07" hostname="elvia - 172.30.66.64" id="Test Suites/TS Customer Registration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201"/>
+         <property name="logFiles" value="D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\execution0.log"/>
+         <property name="attachments" value="D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296757621.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296758108.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296778250.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296786812.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296841718.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296842223.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296857084.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296865854.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296891107.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296891604.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296906919.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296914031.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296951005.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296951492.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296954568.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296957971.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297027385.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297044816.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297069012.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297069489.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297071485.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297074553.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297143878.png, D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297172387.png"/>
+         <property name="hostName" value="elvia - 172.30.66.64"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 132.0.0.0"/>
+         <property name="hostAddress" value="172.30.66.64"/>
+         <property name="sessionId" value="3c06bd5506fc1de33abdffd0c179a6d8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Main TC/Case Registration/TC Verification Mobile" time="92.734" classname="Test Cases/Main TC/Case Registration/TC Verification Mobile" status="PASSED">
+         <system-out><![CDATA[31-01-2025T11:12:07 - [TEST_CASE][PASSED] - Test Cases/Main TC/Case Registration/TC Verification Mobile: Test Cases/Main TC/Case Registration/TC Verification Mobile
+
+31-01-2025T11:12:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reused TC/2. Credential/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reused TC/2. Credential/Login' successfully
+
+31-01-2025T11:12:08 - [TEST_CASE][PASSED] - Test Cases/Reused TC/2. Credential/Login: Test Cases/Reused TC/2. Credential/Login
+
+31-01-2025T11:12:08 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://sit-aws.comet.xl.co.id/'
+
+31-01-2025T11:12:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2025T11:12:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2025T11:12:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sit-aws.comet.xl.co.id/'
+
+31-01-2025T11:12:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-01-2025T11:12:12 - [MESSAGE][PASSED] - Current window maximized
+
+31-01-2025T11:12:12 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/btn Login")): Object: 'Object Repository/Spesific/btn Login' is clicked on
+
+31-01-2025T11:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/btn Login' is clicked on
+
+31-01-2025T11:12:14 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"loginfmt"]), USERNAME): Text 'xl.test4@xl.co.id' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:12:16 - [MESSAGE][PASSED] - Text 'xl.test4@xl.co.id' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:12:16 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"passwd"]), PASSWORD): Text ****** has been set on object 'Object Repository/General/obj'
+
+31-01-2025T11:12:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/General/obj'
+
+31-01-2025T11:12:17 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:18 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"]), 5): Object 'Object Repository/General/obj' is clickable
+
+31-01-2025T11:12:19 - [MESSAGE][PASSED] - Object 'Object Repository/General/obj' is clickable
+
+31-01-2025T11:12:19 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reused TC/2. Credential/Login' successfully
+
+31-01-2025T11:12:23 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuMain", ["mainMenu":"Customer Registration"])): Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+31-01-2025T11:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+31-01-2025T11:12:23 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuSub", ["subMenu":"Case Registration"])): Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:12:24 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuSub", ["subMenu":"Verification Mobile"])): Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:12:25 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"referenceId"]), referenceId): Text '2944000' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:12:36 - [MESSAGE][PASSED] - Text '2944000' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:12:36 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Search"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:12:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:12:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296757621.png]]
+
+31-01-2025T11:12:37 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"img", "attr":"@src", "val":"eye"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:12:38 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:12:38 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:12:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+31-01-2025T11:12:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296758108.png]]
+
+31-01-2025T11:12:38 - [TEST_STEP][PASSED] - if (isApprove == true): null
+
+31-01-2025T11:12:38 - [TEST_STEP][PASSED] - else: Call Test Case 'Test Cases/Reused TC/5. Case Registration/b. Reject case registration' successfully
+
+31-01-2025T11:12:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reused TC/5. Case Registration/b. Reject case registration"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reused TC/5. Case Registration/b. Reject case registration' successfully
+
+31-01-2025T11:12:38 - [TEST_CASE][PASSED] - Test Cases/Reused TC/5. Case Registration/b. Reject case registration: Test Cases/Reused TC/5. Case Registration/b. Reject case registration
+
+31-01-2025T11:12:38 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Reject"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:12:55 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@placeholder", "val":"Reject Reason"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:56 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":"BUKAN KTP ASLI KTP SCAN"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:56 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@placeholder", "val":"Reject Reason"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:57 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":"Close Request by Subscriber"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:12:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296778250.png]]
+
+31-01-2025T11:12:58 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"button", "attr":"@class", "val":"common-button btn-danger"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:12:58 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+31-01-2025T11:12:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+31-01-2025T11:12:58 - [TEST_STEP][PASSED] - waitForAlert(5): No alert found after 5 second(s).
+
+31-01-2025T11:13:03 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+31-01-2025T11:13:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:13:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296786812.png]]
+
+31-01-2025T11:13:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reused TC/5. Case Registration/b. Reject case registration' successfully
+
+31-01-2025T11:13:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reused TC/2. Credential/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reused TC/2. Credential/Logout' successfully
+
+31-01-2025T11:13:07 - [TEST_CASE][PASSED] - Test Cases/Reused TC/2. Credential/Logout: Test Cases/Reused TC/2. Credential/Logout
+
+31-01-2025T11:13:07 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"div", "attr":"@class", "val":"login"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:13:39 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"@class", "val":"mat-menu-item"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:13:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reused TC/2. Credential/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main TC/Case Registration/TC Verification Mobile" time="52.297" classname="Test Cases/Main TC/Case Registration/TC Verification Mobile" status="PASSED">
+         <system-out><![CDATA[31-01-2025T11:13:40 - [TEST_CASE][PASSED] - Test Cases/Main TC/Case Registration/TC Verification Mobile: Test Cases/Main TC/Case Registration/TC Verification Mobile
+
+31-01-2025T11:13:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reused TC/2. Credential/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reused TC/2. Credential/Login' successfully
+
+31-01-2025T11:13:40 - [TEST_CASE][PASSED] - Test Cases/Reused TC/2. Credential/Login: Test Cases/Reused TC/2. Credential/Login
+
+31-01-2025T11:13:40 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://sit-aws.comet.xl.co.id/'
+
+31-01-2025T11:13:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-01-2025T11:13:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2025T11:13:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2025T11:13:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sit-aws.comet.xl.co.id/'
+
+31-01-2025T11:13:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-01-2025T11:13:42 - [MESSAGE][PASSED] - Current window maximized
+
+31-01-2025T11:13:42 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/btn Login")): Object: 'Object Repository/Spesific/btn Login' is clicked on
+
+31-01-2025T11:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/btn Login' is clicked on
+
+31-01-2025T11:13:44 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"loginfmt"]), USERNAME): Text 'xl.test4@xl.co.id' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:13:46 - [MESSAGE][PASSED] - Text 'xl.test4@xl.co.id' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:13:46 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:13:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"passwd"]), PASSWORD): Text ****** has been set on object 'Object Repository/General/obj'
+
+31-01-2025T11:13:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/General/obj'
+
+31-01-2025T11:13:47 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:13:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"]), 5): Object 'Object Repository/General/obj' is clickable
+
+31-01-2025T11:13:49 - [MESSAGE][PASSED] - Object 'Object Repository/General/obj' is clickable
+
+31-01-2025T11:13:49 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:13:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reused TC/2. Credential/Login' successfully
+
+31-01-2025T11:13:49 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuMain", ["mainMenu":"Customer Registration"])): Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+31-01-2025T11:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+31-01-2025T11:13:52 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuSub", ["subMenu":"Case Registration"])): Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:13:53 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuSub", ["subMenu":"Verification Mobile"])): Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:13:53 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"referenceId"]), referenceId): Text '2943988' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:14:00 - [MESSAGE][PASSED] - Text '2943988' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:14:00 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Search"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:14:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:14:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296841718.png]]
+
+31-01-2025T11:14:01 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"img", "attr":"@src", "val":"eye"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:14:02 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:14:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+31-01-2025T11:14:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296842223.png]]
+
+31-01-2025T11:14:02 - [TEST_STEP][PASSED] - if (isApprove == true): null
+
+31-01-2025T11:14:02 - [TEST_STEP][PASSED] - else: Call Test Case 'Test Cases/Reused TC/5. Case Registration/b. Reject case registration' successfully
+
+31-01-2025T11:14:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reused TC/5. Case Registration/b. Reject case registration"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reused TC/5. Case Registration/b. Reject case registration' successfully
+
+31-01-2025T11:14:02 - [TEST_CASE][PASSED] - Test Cases/Reused TC/5. Case Registration/b. Reject case registration: Test Cases/Reused TC/5. Case Registration/b. Reject case registration
+
+31-01-2025T11:14:02 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Reject"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:14:14 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@placeholder", "val":"Reject Reason"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:14 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":"BUKAN KTP ASLI KTP SCAN"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:15 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@placeholder", "val":"Reject Reason"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:16 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":"Close Request by Subscriber"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:14:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296857084.png]]
+
+31-01-2025T11:14:17 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"button", "attr":"@class", "val":"common-button btn-danger"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:17 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+31-01-2025T11:14:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+31-01-2025T11:14:17 - [TEST_STEP][PASSED] - waitForAlert(5): No alert found after 5 second(s).
+
+31-01-2025T11:14:22 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+31-01-2025T11:14:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:14:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296865854.png]]
+
+31-01-2025T11:14:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reused TC/5. Case Registration/b. Reject case registration' successfully
+
+31-01-2025T11:14:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reused TC/2. Credential/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reused TC/2. Credential/Logout' successfully
+
+31-01-2025T11:14:26 - [TEST_CASE][PASSED] - Test Cases/Reused TC/2. Credential/Logout: Test Cases/Reused TC/2. Credential/Logout
+
+31-01-2025T11:14:26 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"div", "attr":"@class", "val":"login"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:31 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"@class", "val":"mat-menu-item"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:14:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reused TC/2. Credential/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main TC/Case Registration/TC Verification Mobile" time="58.759" classname="Test Cases/Main TC/Case Registration/TC Verification Mobile" status="PASSED">
+         <system-out><![CDATA[31-01-2025T11:14:32 - [TEST_CASE][PASSED] - Test Cases/Main TC/Case Registration/TC Verification Mobile: Test Cases/Main TC/Case Registration/TC Verification Mobile
+
+31-01-2025T11:14:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reused TC/2. Credential/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reused TC/2. Credential/Login' successfully
+
+31-01-2025T11:14:32 - [TEST_CASE][PASSED] - Test Cases/Reused TC/2. Credential/Login: Test Cases/Reused TC/2. Credential/Login
+
+31-01-2025T11:14:32 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://sit-aws.comet.xl.co.id/'
+
+31-01-2025T11:14:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-01-2025T11:14:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2025T11:14:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2025T11:14:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sit-aws.comet.xl.co.id/'
+
+31-01-2025T11:14:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-01-2025T11:14:35 - [MESSAGE][PASSED] - Current window maximized
+
+31-01-2025T11:14:35 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/btn Login")): Object: 'Object Repository/Spesific/btn Login' is clicked on
+
+31-01-2025T11:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/btn Login' is clicked on
+
+31-01-2025T11:14:36 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"loginfmt"]), USERNAME): Text 'xl.test4@xl.co.id' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:14:38 - [MESSAGE][PASSED] - Text 'xl.test4@xl.co.id' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:14:38 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"passwd"]), PASSWORD): Text ****** has been set on object 'Object Repository/General/obj'
+
+31-01-2025T11:14:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/General/obj'
+
+31-01-2025T11:14:39 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:40 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"]), 5): Object 'Object Repository/General/obj' is clickable
+
+31-01-2025T11:14:41 - [MESSAGE][PASSED] - Object 'Object Repository/General/obj' is clickable
+
+31-01-2025T11:14:41 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:14:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reused TC/2. Credential/Login' successfully
+
+31-01-2025T11:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuMain", ["mainMenu":"Customer Registration"])): Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+31-01-2025T11:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+31-01-2025T11:14:44 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuSub", ["subMenu":"Case Registration"])): Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:14:44 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuSub", ["subMenu":"Verification Mobile"])): Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:14:45 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"referenceId"]), referenceId): Text '2943986' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:14:50 - [MESSAGE][PASSED] - Text '2943986' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:14:50 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Search"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:14:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:14:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296891107.png]]
+
+31-01-2025T11:14:51 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"img", "attr":"@src", "val":"eye"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:14:51 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:14:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+31-01-2025T11:14:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296891604.png]]
+
+31-01-2025T11:14:52 - [TEST_STEP][PASSED] - if (isApprove == true): null
+
+31-01-2025T11:14:52 - [TEST_STEP][PASSED] - else: Call Test Case 'Test Cases/Reused TC/5. Case Registration/b. Reject case registration' successfully
+
+31-01-2025T11:14:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reused TC/5. Case Registration/b. Reject case registration"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reused TC/5. Case Registration/b. Reject case registration' successfully
+
+31-01-2025T11:14:52 - [TEST_CASE][PASSED] - Test Cases/Reused TC/5. Case Registration/b. Reject case registration: Test Cases/Reused TC/5. Case Registration/b. Reject case registration
+
+31-01-2025T11:14:52 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Reject"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:15:03 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@placeholder", "val":"Reject Reason"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:04 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":"BUKAN KTP ASLI KTP SCAN"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:05 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@placeholder", "val":"Reject Reason"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:05 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":"Close Request by Subscriber"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:15:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296906919.png]]
+
+31-01-2025T11:15:07 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"button", "attr":"@class", "val":"common-button btn-danger"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:07 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+31-01-2025T11:15:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+31-01-2025T11:15:07 - [TEST_STEP][PASSED] - waitForAlert(5): No alert found after 5 second(s).
+
+31-01-2025T11:15:12 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+31-01-2025T11:15:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:15:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296914031.png]]
+
+31-01-2025T11:15:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reused TC/5. Case Registration/b. Reject case registration' successfully
+
+31-01-2025T11:15:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reused TC/2. Credential/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reused TC/2. Credential/Logout' successfully
+
+31-01-2025T11:15:14 - [TEST_CASE][PASSED] - Test Cases/Reused TC/2. Credential/Logout: Test Cases/Reused TC/2. Credential/Logout
+
+31-01-2025T11:15:14 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"div", "attr":"@class", "val":"login"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:30 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"@class", "val":"mat-menu-item"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:15:31 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:15:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reused TC/2. Credential/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main TC/Case Registration/TC Delivery Prio Mobile" time="119.439" classname="Test Cases/Main TC/Case Registration/TC Delivery Prio Mobile" status="PASSED">
+         <system-out><![CDATA[31-01-2025T11:15:31 - [TEST_CASE][PASSED] - Test Cases/Main TC/Case Registration/TC Delivery Prio Mobile: Test Cases/Main TC/Case Registration/TC Delivery Prio Mobile
+
+31-01-2025T11:15:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reused TC/2. Credential/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reused TC/2. Credential/Login' successfully
+
+31-01-2025T11:15:31 - [TEST_CASE][PASSED] - Test Cases/Reused TC/2. Credential/Login: Test Cases/Reused TC/2. Credential/Login
+
+31-01-2025T11:15:31 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://sit-aws.comet.xl.co.id/'
+
+31-01-2025T11:15:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-01-2025T11:15:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2025T11:15:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2025T11:15:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sit-aws.comet.xl.co.id/'
+
+31-01-2025T11:15:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-01-2025T11:15:34 - [MESSAGE][PASSED] - Current window maximized
+
+31-01-2025T11:15:34 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/btn Login")): Object: 'Object Repository/Spesific/btn Login' is clicked on
+
+31-01-2025T11:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/btn Login' is clicked on
+
+31-01-2025T11:15:36 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"loginfmt"]), USERNAME): Text 'xl.test4@xl.co.id' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:15:38 - [MESSAGE][PASSED] - Text 'xl.test4@xl.co.id' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:15:38 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"passwd"]), PASSWORD): Text ****** has been set on object 'Object Repository/General/obj'
+
+31-01-2025T11:15:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/General/obj'
+
+31-01-2025T11:15:39 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:40 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"]), 5): Object 'Object Repository/General/obj' is clickable
+
+31-01-2025T11:15:41 - [MESSAGE][PASSED] - Object 'Object Repository/General/obj' is clickable
+
+31-01-2025T11:15:41 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reused TC/2. Credential/Login' successfully
+
+31-01-2025T11:15:43 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuMain", ["mainMenu":"Customer Registration"])): Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+31-01-2025T11:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+31-01-2025T11:15:44 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuSub", ["subMenu":"Case Registration"])): Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:15:44 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuSub", ["subMenu":"Delivery PRIO Mobile"])): Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:15:45 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"referenceId"]), ReferenceID): Text '2942462' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:15:49 - [MESSAGE][PASSED] - Text '2942462' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:15:49 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"button", "attr":"@type", "val":"submit"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:15:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296951005.png]]
+
+31-01-2025T11:15:51 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/btn Opendetail")): Object: 'Object Repository/Spesific/btn Opendetail' is clicked on
+
+31-01-2025T11:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/btn Opendetail' is clicked on
+
+31-01-2025T11:15:51 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:15:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+31-01-2025T11:15:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296951492.png]]
+
+31-01-2025T11:15:51 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Update Data"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:15:54 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:15:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+31-01-2025T11:15:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296954568.png]]
+
+31-01-2025T11:15:55 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Update ICCID"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:15:56 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"ICCID"]), ICCID): Text '8962117853232101115' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:15:56 - [MESSAGE][PASSED] - Text '8962117853232101115' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:15:56 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"retypeICCID"]), ICCID): Text '8962117853232101115' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:15:57 - [MESSAGE][PASSED] - Text '8962117853232101115' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:15:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:15:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738296957971.png]]
+
+31-01-2025T11:15:58 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"button", "attr":"text()", "val":"Submit"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:15:58 - [TEST_STEP][PASSED] - setText(findTestObject("Spesific/input date", ["dateName":"depoToCourierDate"]), DepoToCourierDate): Text '01/10/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:16:58 - [MESSAGE][PASSED] - Text '01/10/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:16:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Spesific/input date", ["dateName":"depoToCourierDate"]), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:16:59 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:16:59 - [TEST_STEP][PASSED] - setText(findTestObject("Spesific/input date", ["dateName":"courierToCustomerDate"]), CourierToCustomerDate): Text '01/17/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:00 - [MESSAGE][PASSED] - Text '01/17/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Spesific/input date", ["dateName":"courierToCustomerDate"]), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:00 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:00 - [TEST_STEP][PASSED] - setText(findTestObject("Spesific/input date", ["dateName":"estimateShippingTime"]), EstShipping): Text '01/18/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:01 - [MESSAGE][PASSED] - Text '01/18/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Spesific/input date", ["dateName":"estimateShippingTime"]), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:01 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:01 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":"courierPartner"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:17:02 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/p-dropdownitem", ["optionName":courierPartner]), STOP_ON_FAILURE): Object: 'Object Repository/Spesific/p-dropdownitem' is clicked on
+
+31-01-2025T11:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/p-dropdownitem' is clicked on
+
+31-01-2025T11:17:02 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"courierName"]), courierName): Text 'TIKI' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:03 - [MESSAGE][PASSED] - Text 'TIKI' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:03 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"receiptNumber"]), receiptNumber): Text 'BDF00089' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:04 - [MESSAGE][PASSED] - Text 'BDF00089' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:04 - [TEST_STEP][PASSED] - setText(findTestObject("Spesific/input date", ["dateName":"pickupDate"]), pickupDate): Text '02/21/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:05 - [MESSAGE][PASSED] - Text '02/21/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Spesific/input date", ["dateName":"pickupDate"]), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:05 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:05 - [TEST_STEP][PASSED] - setText(findTestObject("Spesific/input date", ["dateName":"customerReceivedDate"]), customerReceivedDate): Text '02/22/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:06 - [MESSAGE][PASSED] - Text '02/22/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Spesific/input date", ["dateName":"customerReceivedDate"]), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:06 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:17:06 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"receiver"]), receiver): Text 'tester' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:07 - [MESSAGE][PASSED] - Text 'tester' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:07 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:17:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+31-01-2025T11:17:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297027385.png]]
+
+31-01-2025T11:17:08 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Save"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:17:08 - [TEST_STEP][PASSED] - waitForAlert(3): No alert found after 3 second(s).
+
+31-01-2025T11:17:11 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+31-01-2025T11:17:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:17:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297044816.png]]
+
+31-01-2025T11:17:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reused TC/2. Credential/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reused TC/2. Credential/Logout' successfully
+
+31-01-2025T11:17:24 - [TEST_CASE][PASSED] - Test Cases/Reused TC/2. Credential/Logout: Test Cases/Reused TC/2. Credential/Logout
+
+31-01-2025T11:17:24 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"div", "attr":"@class", "val":"login"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:17:29 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"@class", "val":"mat-menu-item"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:17:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reused TC/2. Credential/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main TC/Case Registration/TC Delivery Prio Mobile" time="126.155" classname="Test Cases/Main TC/Case Registration/TC Delivery Prio Mobile" status="PASSED">
+         <system-out><![CDATA[31-01-2025T11:17:30 - [TEST_CASE][PASSED] - Test Cases/Main TC/Case Registration/TC Delivery Prio Mobile: Test Cases/Main TC/Case Registration/TC Delivery Prio Mobile
+
+31-01-2025T11:17:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reused TC/2. Credential/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reused TC/2. Credential/Login' successfully
+
+31-01-2025T11:17:30 - [TEST_CASE][PASSED] - Test Cases/Reused TC/2. Credential/Login: Test Cases/Reused TC/2. Credential/Login
+
+31-01-2025T11:17:30 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://sit-aws.comet.xl.co.id/'
+
+31-01-2025T11:17:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-01-2025T11:17:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2025T11:17:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2025T11:17:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sit-aws.comet.xl.co.id/'
+
+31-01-2025T11:17:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-01-2025T11:17:33 - [MESSAGE][PASSED] - Current window maximized
+
+31-01-2025T11:17:33 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/btn Login")): Object: 'Object Repository/Spesific/btn Login' is clicked on
+
+31-01-2025T11:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/btn Login' is clicked on
+
+31-01-2025T11:17:34 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"loginfmt"]), USERNAME): Text 'xl.test4@xl.co.id' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:36 - [MESSAGE][PASSED] - Text 'xl.test4@xl.co.id' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:36 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:17:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"passwd"]), PASSWORD): Text ****** has been set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:38 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:17:38 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"]), 5): Object 'Object Repository/General/obj' is clickable
+
+31-01-2025T11:17:39 - [MESSAGE][PASSED] - Object 'Object Repository/General/obj' is clickable
+
+31-01-2025T11:17:39 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:17:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reused TC/2. Credential/Login' successfully
+
+31-01-2025T11:17:41 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuMain", ["mainMenu":"Customer Registration"])): Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+31-01-2025T11:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+31-01-2025T11:17:42 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuSub", ["subMenu":"Case Registration"])): Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:17:43 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuSub", ["subMenu":"Delivery PRIO Mobile"])): Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+31-01-2025T11:17:43 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"referenceId"]), ReferenceID): Text '2942352' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:47 - [MESSAGE][PASSED] - Text '2942352' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:47 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"button", "attr":"@type", "val":"submit"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:17:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:17:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297069012.png]]
+
+31-01-2025T11:17:49 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/btn Opendetail")): Object: 'Object Repository/Spesific/btn Opendetail' is clicked on
+
+31-01-2025T11:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/btn Opendetail' is clicked on
+
+31-01-2025T11:17:49 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:17:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+31-01-2025T11:17:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297069489.png]]
+
+31-01-2025T11:17:50 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Update Data"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:17:51 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:17:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+31-01-2025T11:17:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297071485.png]]
+
+31-01-2025T11:17:52 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Update ICCID"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:17:52 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"ICCID"]), ICCID): Text '8962117853232101126' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:53 - [MESSAGE][PASSED] - Text '8962117853232101126' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:53 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"retypeICCID"]), ICCID): Text '8962117853232101126' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:54 - [MESSAGE][PASSED] - Text '8962117853232101126' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:17:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:17:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297074553.png]]
+
+31-01-2025T11:17:54 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"button", "attr":"text()", "val":"Submit"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:17:55 - [TEST_STEP][PASSED] - setText(findTestObject("Spesific/input date", ["dateName":"depoToCourierDate"]), DepoToCourierDate): Text '01/10/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:18:55 - [MESSAGE][PASSED] - Text '01/10/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:18:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Spesific/input date", ["dateName":"depoToCourierDate"]), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:18:55 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:18:55 - [TEST_STEP][PASSED] - setText(findTestObject("Spesific/input date", ["dateName":"courierToCustomerDate"]), CourierToCustomerDate): Text '01/17/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:18:56 - [MESSAGE][PASSED] - Text '01/17/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:18:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Spesific/input date", ["dateName":"courierToCustomerDate"]), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:18:57 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:18:57 - [TEST_STEP][PASSED] - setText(findTestObject("Spesific/input date", ["dateName":"estimateShippingTime"]), EstShipping): Text '01/18/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:18:57 - [MESSAGE][PASSED] - Text '01/18/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:18:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Spesific/input date", ["dateName":"estimateShippingTime"]), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:18:58 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:18:58 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":"courierPartner"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:18:58 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/p-dropdownitem", ["optionName":courierPartner]), STOP_ON_FAILURE): Object: 'Object Repository/Spesific/p-dropdownitem' is clicked on
+
+31-01-2025T11:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/p-dropdownitem' is clicked on
+
+31-01-2025T11:18:59 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"courierName"]), courierName): Text 'TIKI' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:19:00 - [MESSAGE][PASSED] - Text 'TIKI' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:19:00 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"receiptNumber"]), receiptNumber): Text 'BDF00089' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:19:00 - [MESSAGE][PASSED] - Text 'BDF00089' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:19:00 - [TEST_STEP][PASSED] - setText(findTestObject("Spesific/input date", ["dateName":"pickupDate"]), pickupDate): Text '02/21/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:19:01 - [MESSAGE][PASSED] - Text '02/21/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:19:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Spesific/input date", ["dateName":"pickupDate"]), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:19:02 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:19:02 - [TEST_STEP][PASSED] - setText(findTestObject("Spesific/input date", ["dateName":"customerReceivedDate"]), customerReceivedDate): Text '02/22/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:19:02 - [MESSAGE][PASSED] - Text '02/22/2025' is set on object 'Object Repository/Spesific/input date'
+
+31-01-2025T11:19:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Spesific/input date", ["dateName":"customerReceivedDate"]), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:19:03 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Spesific/input date'
+
+31-01-2025T11:19:03 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"receiver"]), receiver): Text 'tester' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:19:03 - [MESSAGE][PASSED] - Text 'tester' is set on object 'Object Repository/General/obj'
+
+31-01-2025T11:19:03 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:19:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+31-01-2025T11:19:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297143878.png]]
+
+31-01-2025T11:19:04 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Save"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:19:05 - [TEST_STEP][PASSED] - waitForAlert(3): No alert found after 3 second(s).
+
+31-01-2025T11:19:08 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+31-01-2025T11:19:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+31-01-2025T11:19:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Katalon\\Workspace\\comet_automate\\Reports\\20250131_111201\\TS Customer Registration\\20250131_111201\\1738297172387.png]]
+
+31-01-2025T11:19:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reused TC/2. Credential/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reused TC/2. Credential/Logout' successfully
+
+31-01-2025T11:19:32 - [TEST_CASE][PASSED] - Test Cases/Reused TC/2. Credential/Logout: Test Cases/Reused TC/2. Credential/Logout
+
+31-01-2025T11:19:32 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"div", "attr":"@class", "val":"login"])): Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+31-01-2025T11:19:35 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"@class", "val":"mat-menu-item"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+31-01-2025T11:19:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reused TC/2. Credential/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-01-2025T11:12:07 - [TEST_SUITE][PASSED] - TS Customer Registration: Test Cases/Main TC/Case Registration/TC Delivery Prio Mobile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

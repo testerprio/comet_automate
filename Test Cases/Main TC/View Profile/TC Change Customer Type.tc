@@ -10,6 +10,18 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>56c082b7-4ae7-4c1c-b14a-4465f412ebf0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ba44a8e-a575-428b-b9e0-dbeeb1163f04</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>9d70dac6-23d9-446b-8bba-a487a267a7df</variableId>
    </variableLinks>
    <variableLinks>
@@ -24,6 +36,20 @@
       <value></value>
       <variableId>a0b4b20a-c9cb-431e-8903-d83f4a488223</variableId>
    </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>56c082b7-4ae7-4c1c-b14a-4465f412ebf0</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ba44a8e-a575-428b-b9e0-dbeeb1163f04</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
    <variable>
       <defaultValue>'6281977777627'</defaultValue>
       <description></description>

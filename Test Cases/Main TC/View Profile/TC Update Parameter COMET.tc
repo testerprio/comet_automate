@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Update Parameter COMET</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b820c9f3-22ed-405d-b9ef-6e68464cdbed</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08d98ea6-c630-4fa3-a3e0-50245bb38a7d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71507156-28cf-4884-8d25-2bf3c444954b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>24742604-9553-4441-941b-49a079a4d27c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>806a85b9-fe80-4972-b6fb-99e7bae1d9cd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Internal Data/User Login').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>08d98ea6-c630-4fa3-a3e0-50245bb38a7d</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Internal Data/User Login').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>71507156-28cf-4884-8d25-2bf3c444954b</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>'628172321224'</defaultValue>
+      <description></description>
+      <id>24742604-9553-4441-941b-49a079a4d27c</id>
+      <masked>false</masked>
+      <name>msisdn</name>
+   </variable>
+   <variable>
+      <defaultValue>'No'</defaultValue>
+      <description></description>
+      <id>806a85b9-fe80-4972-b6fb-99e7bae1d9cd</id>
+      <masked>false</masked>
+      <name>newValueParam</name>
+   </variable>
+</TestCaseEntity>

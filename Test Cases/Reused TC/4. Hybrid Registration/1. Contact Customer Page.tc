@@ -40,12 +40,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e57c4553-bfee-41b7-a3d6-cadd046d90f3</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>7c3a91ef-654e-4783-a6a9-5e7dedc8f519</variableId>
    </variableLinks>
    <variableLinks>
@@ -118,12 +112,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c0d9ff4f-b2f9-4f5d-a183-fc747a806ee5</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>e87edb16-0aa6-410f-b8d9-9692194c74cf</variableId>
    </variableLinks>
    <variableLinks>
@@ -131,6 +119,24 @@
       <type>DEFAULT</type>
       <value></value>
       <variableId>a44a735d-143a-411a-91b3-4251dbaa30a7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b1794a80-51a6-4254-b79c-38c823791144</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b95f88d1-6959-4b7d-81cc-47a0ec2ce0e4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5f2dd026-b1f1-44f4-94fc-ba196603d917</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -166,13 +172,6 @@
       <id>e787f538-cc7a-4c0e-b1b8-e48d647810ea</id>
       <masked>false</masked>
       <name>dateOfBirth</name>
-   </variable>
-   <variable>
-      <defaultValue>[]</defaultValue>
-      <description></description>
-      <id>e57c4553-bfee-41b7-a3d6-cadd046d90f3</id>
-      <masked>false</masked>
-      <name>dobSplit</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -259,13 +258,6 @@
       <name>validTill</name>
    </variable>
    <variable>
-      <defaultValue>[]</defaultValue>
-      <description></description>
-      <id>c0d9ff4f-b2f9-4f5d-a183-fc747a806ee5</id>
-      <masked>false</masked>
-      <name>splitValidCardIDDate</name>
-   </variable>
-   <variable>
       <defaultValue>false</defaultValue>
       <description></description>
       <id>e87edb16-0aa6-410f-b8d9-9692194c74cf</id>
@@ -278,5 +270,26 @@
       <id>a44a735d-143a-411a-91b3-4251dbaa30a7</id>
       <masked>false</masked>
       <name>issuingType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Personal Regular'</defaultValue>
+      <description></description>
+      <id>b1794a80-51a6-4254-b79c-38c823791144</id>
+      <masked>false</masked>
+      <name>customerType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Consumer - Reg'</defaultValue>
+      <description></description>
+      <id>b95f88d1-6959-4b7d-81cc-47a0ec2ce0e4</id>
+      <masked>false</masked>
+      <name>customerSubType</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>5f2dd026-b1f1-44f4-94fc-ba196603d917</id>
+      <masked>false</masked>
+      <name>isResidentialRegistration</name>
    </variable>
 </TestCaseEntity>

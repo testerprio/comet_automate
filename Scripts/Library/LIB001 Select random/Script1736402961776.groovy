@@ -16,8 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement
+
 
 Random rand = new Random()
 
-WebUI.acceptAlert()
+List<WebElement> elements = WebUI.findWebElements(testObjectOptions, 10)
+int sizeData = elements.size()
+int selectedIdx = rand.next(sizeData)
 
+WebUI.comment("Amount data = "+sizeData+" and selected idx-"+selectedIdx)

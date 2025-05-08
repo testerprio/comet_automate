@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Change Payment Method COMET</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>529b4273-cad6-4388-9c84-92beb23b3134</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2b6746e-aa1b-430a-8992-3da9e6af450c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>25f33f95-816b-41b8-a522-2c92af5e577a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>88dd5b90-97bf-47d5-ba87-8d48a9bd79f8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f2b6746e-aa1b-430a-8992-3da9e6af450c</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>25f33f95-816b-41b8-a522-2c92af5e577a</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>'628170494549'</defaultValue>
+      <description></description>
+      <id>88dd5b90-97bf-47d5-ba87-8d48a9bd79f8</id>
+      <masked>false</masked>
+      <name>msisdn</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Post To Pre Migration</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>199c5a91-ab40-46b6-a6e4-9ce9b0cea61a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>58990c74-69d5-41c7-8ee7-b9b4b811f372</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84d4004d-2760-4fe2-ba61-c8b7634daf0c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>db2a1e72-a632-4ffa-9f8b-e703c10ab99f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'628175282721'</defaultValue>
+      <description></description>
+      <id>58990c74-69d5-41c7-8ee7-b9b4b811f372</id>
+      <masked>false</masked>
+      <name>msisdn</name>
+   </variable>
+   <variable>
+      <defaultValue>'BKK_1TB_JUMBO_ION_LO1_Bundle'</defaultValue>
+      <description></description>
+      <id>84d4004d-2760-4fe2-ba61-c8b7634daf0c</id>
+      <masked>false</masked>
+      <name>changetoPricePlan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>db2a1e72-a632-4ffa-9f8b-e703c10ab99f</id>
+      <masked>false</masked>
+      <name>memo</name>
+   </variable>
+</TestCaseEntity>

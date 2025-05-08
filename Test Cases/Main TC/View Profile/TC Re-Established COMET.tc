@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Re-Established COMET</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2badff34-1d6b-464f-aa05-e4e71c9e3c76</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e14bc44d-8181-4ffd-9f25-27fb0431306e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aaed5ca1-b7bf-4ba7-810e-c928d6ba2c40</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ef52c6a-321f-4381-a6fb-ab58741d7b70</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e14bc44d-8181-4ffd-9f25-27fb0431306e</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aaed5ca1-b7bf-4ba7-810e-c928d6ba2c40</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>'6287879553479'</defaultValue>
+      <description></description>
+      <id>1ef52c6a-321f-4381-a6fb-ab58741d7b70</id>
+      <masked>false</masked>
+      <name>msisdn</name>
+   </variable>
+</TestCaseEntity>

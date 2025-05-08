@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LIB003 Select from Dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>98ff2f4d-00b4-44ec-bab3-b865a4adc300</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80612d97-8103-4f67-8171-83591df88b08</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e9bf33c7-7888-479b-a9a1-1e4de1911454</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>80612d97-8103-4f67-8171-83591df88b08</id>
+      <masked>false</masked>
+      <name>selectionName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e9bf33c7-7888-479b-a9a1-1e4de1911454</id>
+      <masked>false</masked>
+      <name>selectedOption</name>
+   </variable>
+</TestCaseEntity>

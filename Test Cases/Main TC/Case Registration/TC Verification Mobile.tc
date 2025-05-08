@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Verification Mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3e8145ac-c497-4d5d-a9ed-32997f56f4a1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e43a958-5983-4b2e-8b95-63e69b53d627</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>345b22ec-9504-45c7-a744-4c7cf8b8e287</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2943984'</defaultValue>
+      <description></description>
+      <id>5e43a958-5983-4b2e-8b95-63e69b53d627</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>345b22ec-9504-45c7-a744-4c7cf8b8e287</id>
+      <masked>false</masked>
+      <name>isApprove</name>
+   </variable>
+</TestCaseEntity>
