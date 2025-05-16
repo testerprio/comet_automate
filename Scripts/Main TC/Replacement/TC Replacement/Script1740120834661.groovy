@@ -49,3 +49,7 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('General/obj contains', [('obj') : 'button', ('attr') : 'text()', ('val') : 'Submit']))
 
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('General/obj contains', [('obj') : 'button', ('attr') : 'text()', ('val') : 'YES']))
+

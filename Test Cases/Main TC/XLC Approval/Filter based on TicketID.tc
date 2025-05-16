@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter based on TicketID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1754e9e9-4889-49a5-827f-b45dd8000160</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a7d488c0-f5e1-4909-9d91-00211ac3c48e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>45ed49a6-8e0a-4b8d-a59d-e1dd1337d80b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bcdda617-e659-4e04-bd38-511b52bc4ab5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4b61fe5b-3527-4e89-8bbd-0721c4cb846c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e3cbe075-df66-4133-ae32-cee9fbae1cdf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Internal Data/User Login').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a7d488c0-f5e1-4909-9d91-00211ac3c48e</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Internal Data/User Login').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>45ed49a6-8e0a-4b8d-a59d-e1dd1337d80b</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>'2627431'</defaultValue>
+      <description></description>
+      <id>bcdda617-e659-4e04-bd38-511b52bc4ab5</id>
+      <masked>false</masked>
+      <name>ApplicationID</name>
+   </variable>
+   <variable>
+      <defaultValue>'Reactivation'</defaultValue>
+      <description></description>
+      <id>4b61fe5b-3527-4e89-8bbd-0721c4cb846c</id>
+      <masked>false</masked>
+      <name>serviceType</name>
+   </variable>
+   <variable>
+      <defaultValue>'XL CENTER'</defaultValue>
+      <description></description>
+      <id>e3cbe075-df66-4133-ae32-cee9fbae1cdf</id>
+      <masked>false</masked>
+      <name>channel</name>
+   </variable>
+</TestCaseEntity>

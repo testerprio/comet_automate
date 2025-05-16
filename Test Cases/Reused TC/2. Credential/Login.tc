@@ -4,7 +4,6 @@
    <name>Login</name>
    <tag></tag>
    <comment></comment>
-   <recordOption>OTHER</recordOption>
    <testCaseGuid>2bc1bc89-9b01-4631-ad12-306dda903966</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

@@ -4,7 +4,6 @@
    <name>TC Replacement</name>
    <tag></tag>
    <comment></comment>
-   <recordOption>OTHER</recordOption>
    <testCaseGuid>54cd1a21-1655-4704-b656-74dc50543c3a</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -31,21 +30,21 @@
       <variableId>fe9ef713-5b91-4cba-8207-0e473302b260</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Internal Data/User Login').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('Internal Data/User Login').getValue(1, 2)</defaultValue>
       <description></description>
       <id>532877d0-bcac-433f-94c2-208f13447453</id>
       <masked>false</masked>
       <name>user</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Internal Data/User Login').getValue(2, 1)</defaultValue>
+      <defaultValue>findTestData('Internal Data/User Login').getValue(2, 2)</defaultValue>
       <description></description>
       <id>7523cd00-3ab3-498b-82fa-3e0cce4141cb</id>
       <masked>false</masked>
       <name>pass</name>
    </variable>
    <variable>
-      <defaultValue>'628172321224'</defaultValue>
+      <defaultValue>'62817893377'</defaultValue>
       <description></description>
       <id>355ddfea-f211-42e0-87d0-7db06a2f801d</id>
       <masked>false</masked>

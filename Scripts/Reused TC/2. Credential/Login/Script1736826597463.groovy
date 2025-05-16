@@ -21,13 +21,21 @@ WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
+WebUI.enableSmartWait()
+
 WebUI.click(findTestObject('Spesific/btn Login'))
 
 WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@name', ('val') : 'loginfmt']), username)
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']))
 
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setEncryptedText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@name', ('val') : 'passwd']), encriptPassword)
+
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@id', ('val') : 'idSIButton9']))
 

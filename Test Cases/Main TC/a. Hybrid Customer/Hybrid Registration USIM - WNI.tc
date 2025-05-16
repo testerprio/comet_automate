@@ -4,7 +4,6 @@
    <name>Hybrid Registration USIM - WNI</name>
    <tag></tag>
    <comment></comment>
-   <recordOption>OTHER</recordOption>
    <testCaseGuid>434eefbb-fb33-4b36-ad5f-e6fe6cacbf3e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -211,14 +210,14 @@
       <variableId>dd4c1f4d-b19c-4ce8-a0ae-58b1b0321adb</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Internal Data/User Login').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('Internal Data/User Login').getValue(1, 2)</defaultValue>
       <description></description>
       <id>1a7c85b7-c406-4790-9156-56126360b7e5</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Internal Data/User Login').getValue(2, 1)</defaultValue>
+      <defaultValue>findTestData('Internal Data/User Login').getValue(2, 2)</defaultValue>
       <description></description>
       <id>0f9c6a80-1ff6-44c3-b1a1-e700518ac483</id>
       <masked>false</masked>
