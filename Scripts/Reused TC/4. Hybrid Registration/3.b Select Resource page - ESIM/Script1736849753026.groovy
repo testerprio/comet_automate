@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.setText(findTestObject('General/obj', [('obj') : 'input', ('attr') : '@formcontrolname', ('val') : 'msisdn']), msisdn)
 
-autoIccid = WebUI.getText(findTestObject('Spesific/Hybrid Registration/label iccidEsim'))
+autoIccid = WebUI.getText(findTestObject('Spesific/1. Hybrid Registration/label iccidEsim'))
 
 if (autoIccid == '-') {
     WebUI.check(findTestObject('General/obj', [('obj') : 'p-checkbox', ('attr') : '@formcontrolname', ('val') : 'isChecked']))

@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS04 Approve Replacement USIM XLC Online" time="95.023" tests="4" failures="0" errors="0">
+   <testsuite name="TS04 Approve Replacement USIM XLC Online" tests="4" failures="0" errors="0" time="95.023" skipped="0" timestamp="2025-05-19 11:45:15" hostname="ElviaElvia - IBM-PF5E7K0V" id="Test Suites/TS04 Approve Replacement USIM XLC Online">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451"/>
+         <property name="logFiles" value="D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\execution0.log"/>
+         <property name="attachments" value="D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747629951641.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747629959665.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747629963395.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747629984651.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747629987874.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747629991126.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747629995095.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747630005313.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747630008210.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747630009263.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747630009896.png"/>
+         <property name="hostName" value="ElviaElvia - IBM-PF5E7K0V"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+         <property name="browser" value="Chrome 136.0.0.0"/>
+         <property name="hostAddress" value="10.16.37.37"/>
+         <property name="sessionId" value="7158558f4309e02552e4070ea0fc41eb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Reused TC/2. Credential/Login" time="37.601" classname="Test Cases/Reused TC/2. Credential/Login" status="PASSED">
+         <system-out><![CDATA[2025-05-19 11:45:15 - [TEST_CASE][PASSED] - Test Cases/Reused TC/2. Credential/Login: Test Cases/Reused TC/2. Credential/Login
+
+2025-05-19 11:45:16 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://stagingcomet-aws-xlcenter.xl.co.id/'
+
+2025-05-19 11:45:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-05-19 11:45:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-05-19 11:45:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stagingcomet-aws-xlcenter.xl.co.id/'
+
+2025-05-19 11:45:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-05-19 11:45:24 - [MESSAGE][PASSED] - Current window maximized
+
+2025-05-19 11:45:24 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+2025-05-19 11:45:24 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/btn Login")): Object: 'Object Repository/Spesific/btn Login' is clicked on
+
+2025-05-19 11:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/btn Login' is clicked on
+
+2025-05-19 11:45:26 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"loginfmt"]), username): Text 'xsis.elvia@xl.co.id' is set on object 'Object Repository/General/obj'
+
+2025-05-19 11:45:27 - [MESSAGE][PASSED] - Text 'xsis.elvia@xl.co.id' is set on object 'Object Repository/General/obj'
+
+2025-05-19 11:45:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-05-19 11:45:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-05-19 11:45:29 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:29 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:29 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2025-05-19 11:45:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-05-19 11:45:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"passwd"]), encriptPassword): Text ****** has been set on object 'Object Repository/General/obj'
+
+2025-05-19 11:45:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/General/obj'
+
+2025-05-19 11:45:32 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2025-05-19 11:45:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2025-05-19 11:45:33 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:33 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("General/obj", ["obj":"div", "attr":"@id", "val":"idDiv_SAOTCAS_Description"]), 5, OPTIONAL)): null
+
+2025-05-19 11:45:37 - [MESSAGE][PASSED] - Object 'Object Repository/General/obj' is present
+
+2025-05-19 11:45:37 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2025-05-19 11:45:45 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2025-05-19 11:45:45 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"otc"]), 5, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//input[@name='otc']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//input[@name='otc']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Login.run(Login:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747629891135.run(TempTestSuite1747629891135.groovy:35)
+)
+
+2025-05-19 11:45:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='otc']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2025-05-19 11:45:52 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//input[@name='otc']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//input[@name='otc']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Login.run(Login:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747629891135.run(TempTestSuite1747629891135.groovy:35)
+)
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747629951641.png]]
+
+2025-05-19 11:45:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"]), 5): Object 'Object Repository/General/obj' is clickable
+
+2025-05-19 11:45:52 - [MESSAGE][PASSED] - Object 'Object Repository/General/obj' is clickable
+
+2025-05-19 11:45:52 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID" time="6.328" classname="Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID" status="PASSED">
+         <system-out><![CDATA[2025-05-19 11:45:53 - [TEST_CASE][PASSED] - Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID: Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID
+
+2025-05-19 11:45:54 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuMain", ["mainMenu":"Customer Support"])): Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+2025-05-19 11:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+2025-05-19 11:45:55 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuSub", ["subMenu":"XL Center Approval"])): Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+2025-05-19 11:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+2025-05-19 11:45:56 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"ticketId"]), ApplicationID): Text '1001274' is set on object 'Object Repository/General/obj'
+
+2025-05-19 11:45:56 - [MESSAGE][PASSED] - Text '1001274' is set on object 'Object Repository/General/obj'
+
+2025-05-19 11:45:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"serviceType", "selectedOption":serviceType], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:45:56 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-19 11:45:57 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:57 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-19 11:45:57 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:57 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:45:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"channel", "selectedOption":channel], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:45:58 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-19 11:45:58 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:58 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-19 11:45:58 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:58 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:45:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:45:59 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Search"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:45:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-05-19 11:45:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747629959665.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main TC/XLC Approval/XLCO002b Update and verification Data Replacement" time="31.396" classname="Test Cases/Main TC/XLC Approval/XLCO002b Update and verification Data Replacement" status="PASSED">
+         <system-out><![CDATA[2025-05-19 11:45:59 - [TEST_CASE][PASSED] - Test Cases/Main TC/XLC Approval/XLCO002b Update and verification Data Replacement: Test Cases/Main TC/XLC Approval/XLCO002b Update and verification Data Replacement
+
+2025-05-19 11:46:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-05-19 11:46:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-05-19 11:46:02 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("General/obj contains", ["obj":"img", "attr":"@src", "val":"eye"]), 5): Scroll to object 'Object Repository/General/obj contains' successfully
+
+2025-05-19 11:46:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/General/obj contains' successfully
+
+2025-05-19 11:46:03 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"img", "attr":"@src", "val":"eye"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:03 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:03 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2025-05-19 11:46:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2025-05-19 11:46:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747629963395.png]]
+
+2025-05-19 11:46:06 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Update Data"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:06 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"newICCID"]), newICCID): Text '8962119999010477754' is set on object 'Object Repository/General/obj'
+
+2025-05-19 11:46:07 - [MESSAGE][PASSED] - Text '8962119999010477754' is set on object 'Object Repository/General/obj'
+
+2025-05-19 11:46:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"iccidCheckStatus", "selectedOption":iccidCheckStatus], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:07 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-19 11:46:07 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:07 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-19 11:46:07 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:07 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"nikCheckStatus", "selectedOption":nikCheckStatus], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:08 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-19 11:46:08 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:08 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-19 11:46:08 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:08 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:09 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"nameCheckStatus", "selectedOption":nameCheckStatus], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:09 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-19 11:46:09 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:09 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:09 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-19 11:46:09 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:09 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:09 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"cardImageCheckStatus", "selectedOption":ValidationImage], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:09 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-19 11:46:09 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:10 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-19 11:46:10 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:10 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"selfieImageCheckStatus", "selectedOption":ValidationImage], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:10 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-19 11:46:10 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:11 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-19 11:46:11 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:11 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"iccidImageCheckStatus", "selectedOption":ValidationImage], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:11 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-19 11:46:11 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:11 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-19 11:46:11 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:11 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"signatureCheckStatus", "selectedOption":ValidationImage], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:12 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-19 11:46:12 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:12 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-19 11:46:12 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:12 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:13 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Capture"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:13 - [TEST_STEP][PASSED] - additionalKeyword.allowBrowserPermission(): additionalKeyword.allowBrowserPermission is PASSED
+
+2025-05-19 11:46:21 - [MESSAGE][PASSED] - additionalKeyword.allowBrowserPermission is PASSED
+
+2025-05-19 11:46:21 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/btn Capturephoto")): Object: 'Object Repository/Spesific/btn Capturephoto' is clicked on
+
+2025-05-19 11:46:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/btn Capturephoto' is clicked on
+
+2025-05-19 11:46:22 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Save and Exit"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:22 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"videoCallStatus", "selectedOption":videoCallStatus], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:22 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-19 11:46:22 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:23 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-19 11:46:23 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:23 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:24 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"textarea", "attr":"@formcontrolname", "val":"note"]), "testing"): Text 'testing' is set on object 'Object Repository/General/obj'
+
+2025-05-19 11:46:24 - [MESSAGE][PASSED] - Text 'testing' is set on object 'Object Repository/General/obj'
+
+2025-05-19 11:46:24 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2025-05-19 11:46:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2025-05-19 11:46:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747629984651.png]]
+
+2025-05-19 11:46:27 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Save"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:27 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:27 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2025-05-19 11:46:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2025-05-19 11:46:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747629987874.png]]
+
+2025-05-19 11:46:30 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Back"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:31 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-05-19 11:46:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747629991126.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main TC/XLC Approval/XLCO003a Approve transaction" time="18.717" classname="Test Cases/Main TC/XLC Approval/XLCO003a Approve transaction" status="PASSED">
+         <system-out><![CDATA[2025-05-19 11:46:31 - [TEST_CASE][PASSED] - Test Cases/Main TC/XLC Approval/XLCO003a Approve transaction: Test Cases/Main TC/XLC Approval/XLCO003a Approve transaction
+
+2025-05-19 11:46:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Main TC/XLC Approval/XLCO001 Filter based on TicketID"), ["ApplicationID":ApplicationID, "serviceType":"Reactivation", "channel":"XL CENTER"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID' successfully
+
+2025-05-19 11:46:32 - [TEST_CASE][PASSED] - Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID: Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID
+
+2025-05-19 11:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuMain", ["mainMenu":"Customer Support"])): Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+2025-05-19 11:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+2025-05-19 11:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuSub", ["subMenu":"XL Center Approval"])): Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+2025-05-19 11:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+2025-05-19 11:46:32 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"ticketId"]), ApplicationID): Text '1001274' is set on object 'Object Repository/General/obj'
+
+2025-05-19 11:46:33 - [MESSAGE][PASSED] - Text '1001274' is set on object 'Object Repository/General/obj'
+
+2025-05-19 11:46:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"serviceType", "selectedOption":serviceType], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:33 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-19 11:46:33 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:33 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-19 11:46:33 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:33 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"channel", "selectedOption":channel], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:33 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-19 11:46:33 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:34 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-19 11:46:34 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:34 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-19 11:46:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-19 11:46:34 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Search"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:35 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-05-19 11:46:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747629995095.png]]
+
+2025-05-19 11:46:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID' successfully
+
+2025-05-19 11:46:35 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("General/obj contains", ["obj":"img", "attr":"@src", "val":"eye"]), 5): Scroll to object 'Object Repository/General/obj contains' successfully
+
+2025-05-19 11:46:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/General/obj contains' successfully
+
+2025-05-19 11:46:44 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"img", "attr":"@src", "val":"eye"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:45 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2025-05-19 11:46:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2025-05-19 11:46:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747630005313.png]]
+
+2025-05-19 11:46:47 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Approve"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-05-19 11:46:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747630008210.png]]
+
+2025-05-19 11:46:48 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"YES"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("General/obj", ["obj":"div", "attr":"@class", "val":"topic"]), 8): Object 'Object Repository/General/obj' is visible
+
+2025-05-19 11:46:49 - [MESSAGE][PASSED] - Object 'Object Repository/General/obj' is visible
+
+2025-05-19 11:46:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-05-19 11:46:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747630009263.png]]
+
+2025-05-19 11:46:49 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Back"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-19 11:46:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-05-19 11:46:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250519_114451\\TS04 Approve Replacement USIM XLC Online\\20250519_114451\\1747630009896.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2025-05-19 11:45:15 - [TEST_SUITE][PASSED] - TS04 Approve Replacement USIM XLC Online: Test Cases/Main TC/XLC Approval/XLCO003a Approve transaction]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

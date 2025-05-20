@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS05 Reject Replacement XLC Online" time="106.302" tests="4" failures="1" errors="0">
+   <testsuite name="TS05 Reject Replacement XLC Online" tests="4" failures="1" errors="0" time="106.302" skipped="0" timestamp="2025-05-20 07:59:43" hostname="ElviaElvia - IBM-PF5E7K0V" id="Test Suites/TS05 Reject Replacement XLC Online">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918"/>
+         <property name="logFiles" value="D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\execution0.log"/>
+         <property name="attachments" value="D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702823252.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702833978.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702838278.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702872551.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702876745.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702877501.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702881447.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702888692.png, D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702889373.png"/>
+         <property name="hostName" value="ElviaElvia - IBM-PF5E7K0V"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+         <property name="browser" value="Chrome 136.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.162"/>
+         <property name="sessionId" value="1e3ef6081c8b876e271f9abe2bd99ce6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Reused TC/2. Credential/Login" time="41.247" classname="Test Cases/Reused TC/2. Credential/Login" status="PASSED">
+         <system-out><![CDATA[2025-05-20 07:59:44 - [TEST_CASE][PASSED] - Test Cases/Reused TC/2. Credential/Login: Test Cases/Reused TC/2. Credential/Login
+
+2025-05-20 07:59:44 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://stagingcomet-aws-xlcenter.xl.co.id/'
+
+2025-05-20 07:59:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-05-20 07:59:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-05-20 07:59:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stagingcomet-aws-xlcenter.xl.co.id/'
+
+2025-05-20 07:59:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-05-20 07:59:54 - [MESSAGE][PASSED] - Current window maximized
+
+2025-05-20 07:59:54 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+2025-05-20 07:59:54 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/btn Login")): Object: 'Object Repository/Spesific/btn Login' is clicked on
+
+2025-05-20 07:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/btn Login' is clicked on
+
+2025-05-20 07:59:55 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"loginfmt"]), username): Text 'xsis.elvia@xl.co.id' is set on object 'Object Repository/General/obj'
+
+2025-05-20 07:59:57 - [MESSAGE][PASSED] - Text 'xsis.elvia@xl.co.id' is set on object 'Object Repository/General/obj'
+
+2025-05-20 07:59:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-05-20 07:59:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-05-20 07:59:59 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:00 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2025-05-20 08:00:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-05-20 08:00:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"passwd"]), encriptPassword): Text ****** has been set on object 'Object Repository/General/obj'
+
+2025-05-20 08:00:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/General/obj'
+
+2025-05-20 08:00:02 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2025-05-20 08:00:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2025-05-20 08:00:03 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:04 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("General/obj", ["obj":"div", "attr":"@id", "val":"idDiv_SAOTCAS_Description"]), 5, OPTIONAL)): null
+
+2025-05-20 08:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/General/obj' is present
+
+2025-05-20 08:00:08 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2025-05-20 08:00:16 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2025-05-20 08:00:16 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("General/obj", ["obj":"input", "attr":"@name", "val":"otc"]), 5, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//input[@name='otc']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//input[@name='otc']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Login.run(Login:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747702758961.run(TempTestSuite1747702758961.groovy:35)
+)
+
+2025-05-20 08:00:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='otc']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2025-05-20 08:00:23 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//input[@name='otc']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//input[@name='otc']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Login.run(Login:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747702758961.run(TempTestSuite1747702758961.groovy:35)
+)
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702823252.png]]
+
+2025-05-20 08:00:23 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"]), 5): Object 'Object Repository/General/obj' is clickable
+
+2025-05-20 08:00:24 - [MESSAGE][PASSED] - Object 'Object Repository/General/obj' is clickable
+
+2025-05-20 08:00:24 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"input", "attr":"@id", "val":"idSIButton9"])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID" time="8.764" classname="Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID" status="PASSED">
+         <system-out><![CDATA[2025-05-20 08:00:25 - [TEST_CASE][PASSED] - Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID: Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID
+
+2025-05-20 08:00:26 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuMain", ["mainMenu":"Customer Support"])): Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+2025-05-20 08:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+2025-05-20 08:00:28 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuSub", ["subMenu":"XL Center Approval"])): Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+2025-05-20 08:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+2025-05-20 08:00:29 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"ticketId"]), ApplicationID): Text '1001101' is set on object 'Object Repository/General/obj'
+
+2025-05-20 08:00:30 - [MESSAGE][PASSED] - Text '1001101' is set on object 'Object Repository/General/obj'
+
+2025-05-20 08:00:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"serviceType", "selectedOption":serviceType], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-20 08:00:30 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-20 08:00:31 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:31 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-20 08:00:31 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:31 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:32 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-20 08:00:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"channel", "selectedOption":channel], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-20 08:00:32 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-20 08:00:32 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:32 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:32 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-20 08:00:32 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:32 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:00:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-20 08:00:33 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Search"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-20 08:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-20 08:00:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-05-20 08:00:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702833978.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main TC/XLC Approval/XLCO002b Update and verification Data Replacement" time="38.518" classname="Test Cases/Main TC/XLC Approval/XLCO002b Update and verification Data Replacement" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main TC/XLC Approval/XLCO002b Update and verification Data Replacement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at XLCO002b Update and verification Data Replacement.run(XLCO002b Update and verification Data Replacement:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747702758961.run(TempTestSuite1747702758961.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/General/obj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at LIB003 Select from Dropdown.run(LIB003 Select from Dropdown:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//p-dropdown[@formcontrolname='iccidCheckStatus']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+"/>
+         <system-out><![CDATA[2025-05-20 08:00:34 - [TEST_CASE][FAILED] - Test Cases/Main TC/XLC Approval/XLCO002b Update and verification Data Replacement: Test Cases/Main TC/XLC Approval/XLCO002b Update and verification Data Replacement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at XLCO002b Update and verification Data Replacement.run(XLCO002b Update and verification Data Replacement:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747702758961.run(TempTestSuite1747702758961.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/General/obj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at LIB003 Select from Dropdown.run(LIB003 Select from Dropdown:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//p-dropdown[@formcontrolname='iccidCheckStatus']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2025-05-20 08:00:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-05-20 08:00:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-05-20 08:00:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("General/obj contains", ["obj":"img", "attr":"@src", "val":"eye"]), 5): Scroll to object 'Object Repository/General/obj contains' successfully
+
+2025-05-20 08:00:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/General/obj contains' successfully
+
+2025-05-20 08:00:37 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"img", "attr":"@src", "val":"eye"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-20 08:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-20 08:00:38 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2025-05-20 08:00:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2025-05-20 08:00:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702838278.png]]
+
+2025-05-20 08:00:40 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Update Data"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-20 08:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-20 08:00:40 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"newICCID"]), newICCID): Text '8962119999010477754' is set on object 'Object Repository/General/obj'
+
+2025-05-20 08:00:41 - [MESSAGE][PASSED] - Text '8962119999010477754' is set on object 'Object Repository/General/obj'
+
+2025-05-20 08:00:41 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"iccidCheckStatus", "selectedOption":iccidCheckStatus], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at XLCO002b Update and verification Data Replacement.run(XLCO002b Update and verification Data Replacement:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747702758961.run(TempTestSuite1747702758961.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/General/obj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at LIB003 Select from Dropdown.run(LIB003 Select from Dropdown:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//p-dropdown[@formcontrolname='iccidCheckStatus']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2025-05-20 08:00:41 - [TEST_CASE][FAILED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/General/obj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at LIB003 Select from Dropdown.run(LIB003 Select from Dropdown:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at XLCO002b Update and verification Data Replacement.run(XLCO002b Update and verification Data Replacement:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747702758961.run(TempTestSuite1747702758961.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//p-dropdown[@formcontrolname='iccidCheckStatus']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2025-05-20 08:00:41 - [TEST_STEP][FAILED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Unable to click on object 'Object Repository/General/obj' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/General/obj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at LIB003 Select from Dropdown.run(LIB003 Select from Dropdown:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at XLCO002b Update and verification Data Replacement.run(XLCO002b Update and verification Data Replacement:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747702758961.run(TempTestSuite1747702758961.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//p-dropdown[@formcontrolname='iccidCheckStatus']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1740112730805.run(Script1740112730805.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at Script1747629073495.run(Script1747629073495.groovy:32)
+	... 13 more
+)
+
+2025-05-20 08:01:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //p-dropdown[@formcontrolname='iccidCheckStatus']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2025-05-20 08:01:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/General/obj' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/General/obj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at LIB003 Select from Dropdown.run(LIB003 Select from Dropdown:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at XLCO002b Update and verification Data Replacement.run(XLCO002b Update and verification Data Replacement:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747702758961.run(TempTestSuite1747702758961.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//p-dropdown[@formcontrolname='iccidCheckStatus']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1740112730805.run(Script1740112730805.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at Script1747629073495.run(Script1747629073495.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702872551.png]]
+
+2025-05-20 08:01:12 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at XLCO002b Update and verification Data Replacement.run(XLCO002b Update and verification Data Replacement:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747702758961.run(TempTestSuite1747702758961.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/General/obj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at LIB003 Select from Dropdown.run(LIB003 Select from Dropdown:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//p-dropdown[@formcontrolname='iccidCheckStatus']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)]]></system-out>
+         <system-err><![CDATA[2025-05-20 08:00:34 - [TEST_CASE][FAILED] - Test Cases/Main TC/XLC Approval/XLCO002b Update and verification Data Replacement: Test Cases/Main TC/XLC Approval/XLCO002b Update and verification Data Replacement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at XLCO002b Update and verification Data Replacement.run(XLCO002b Update and verification Data Replacement:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747702758961.run(TempTestSuite1747702758961.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/General/obj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at LIB003 Select from Dropdown.run(LIB003 Select from Dropdown:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//p-dropdown[@formcontrolname='iccidCheckStatus']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main TC/XLC Approval/XLCO003b Reject transaction" time="16.601" classname="Test Cases/Main TC/XLC Approval/XLCO003b Reject transaction" status="PASSED">
+         <system-out><![CDATA[2025-05-20 08:01:13 - [TEST_CASE][PASSED] - Test Cases/Main TC/XLC Approval/XLCO003b Reject transaction: Test Cases/Main TC/XLC Approval/XLCO003b Reject transaction
+
+2025-05-20 08:01:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Main TC/XLC Approval/XLCO001 Filter based on TicketID"), ["ApplicationID":applicationID, "serviceType":serviceType, "channel":channel], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID' successfully
+
+2025-05-20 08:01:13 - [TEST_CASE][PASSED] - Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID: Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID
+
+2025-05-20 08:01:13 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuMain", ["mainMenu":"Customer Support"])): Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+2025-05-20 08:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuMain' is clicked on
+
+2025-05-20 08:01:14 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/MenuSub", ["subMenu":"XL Center Approval"])): Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+2025-05-20 08:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/MenuSub' is clicked on
+
+2025-05-20 08:01:14 - [TEST_STEP][PASSED] - setText(findTestObject("General/obj", ["obj":"input", "attr":"@formcontrolname", "val":"ticketId"]), ApplicationID): Text '1001101' is set on object 'Object Repository/General/obj'
+
+2025-05-20 08:01:14 - [MESSAGE][PASSED] - Text '1001101' is set on object 'Object Repository/General/obj'
+
+2025-05-20 08:01:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"serviceType", "selectedOption":serviceType], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-20 08:01:15 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-20 08:01:15 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:01:15 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-20 08:01:15 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:01:15 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:01:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-20 08:01:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Library/LIB003 Select from Dropdown"), ["selectionName":"channel", "selectedOption":channel], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-20 08:01:15 - [TEST_CASE][PASSED] - Test Cases/Library/LIB003 Select from Dropdown: Test Cases/Library/LIB003 Select from Dropdown
+
+2025-05-20 08:01:15 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-dropdown", "attr":"@formcontrolname", "val":selectionName])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:01:16 - [TEST_STEP][PASSED] - if (selectedOption == null || selectedOption == ""): null
+
+2025-05-20 08:01:16 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:01:16 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"li", "attr":"@aria-label", "val":selectedOption])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:01:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' successfully
+
+2025-05-20 08:01:16 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Search"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-20 08:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-20 08:01:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-05-20 08:01:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702876745.png]]
+
+2025-05-20 08:01:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID' successfully
+
+2025-05-20 08:01:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("General/obj contains", ["obj":"img", "attr":"@src", "val":"eye"]), 5): Scroll to object 'Object Repository/General/obj contains' successfully
+
+2025-05-20 08:01:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/General/obj contains' successfully
+
+2025-05-20 08:01:17 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"img", "attr":"@src", "val":"eye"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-20 08:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-20 08:01:17 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2025-05-20 08:01:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2025-05-20 08:01:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702877501.png]]
+
+2025-05-20 08:01:19 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Reject"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-20 08:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-20 08:01:19 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-multiselect", "attr":"@formcontrolname", "val":"reason"])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:01:20 - [TEST_STEP][PASSED] - click(findTestObject("General/p-multiselectitem", ["idx":1])): Object: 'Object Repository/General/p-multiselectitem' is clicked on
+
+2025-05-20 08:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/General/p-multiselectitem' is clicked on
+
+2025-05-20 08:01:20 - [TEST_STEP][PASSED] - check(findTestObject("General/p-multiselectitem", ["idx":3])): Object 'Object Repository/General/p-multiselectitem' is checked
+
+2025-05-20 08:01:20 - [MESSAGE][PASSED] - Object 'Object Repository/General/p-multiselectitem' is checked
+
+2025-05-20 08:01:20 - [TEST_STEP][PASSED] - check(findTestObject("General/p-multiselectitem", ["idx":5])): Object 'Object Repository/General/p-multiselectitem' is checked
+
+2025-05-20 08:01:21 - [MESSAGE][PASSED] - Object 'Object Repository/General/p-multiselectitem' is checked
+
+2025-05-20 08:01:21 - [TEST_STEP][PASSED] - click(findTestObject("General/obj", ["obj":"p-multiselect", "attr":"@formcontrolname", "val":"reason"])): Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj' is clicked on
+
+2025-05-20 08:01:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-05-20 08:01:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702881447.png]]
+
+2025-05-20 08:01:21 - [TEST_STEP][PASSED] - click(findTestObject("Spesific/btn Reject inpopup")): Object: 'Object Repository/Spesific/btn Reject inpopup' is clicked on
+
+2025-05-20 08:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Spesific/btn Reject inpopup' is clicked on
+
+2025-05-20 08:01:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("General/obj", ["obj":"div", "attr":"@class", "val":"topic"]), 8): Object 'Object Repository/General/obj' is visible
+
+2025-05-20 08:01:28 - [MESSAGE][PASSED] - Object 'Object Repository/General/obj' is visible
+
+2025-05-20 08:01:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-05-20 08:01:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702888692.png]]
+
+2025-05-20 08:01:28 - [TEST_STEP][PASSED] - click(findTestObject("General/obj contains", ["obj":"button", "attr":"text()", "val":"Back"])): Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-20 08:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/General/obj contains' is clicked on
+
+2025-05-20 08:01:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-05-20 08:01:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Work\\Automation\\comet_automate\\Reports\\20250520_075918\\TS05 Reject Replacement XLC Online\\20250520_075918\\1747702889373.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2025-05-20 07:59:43 - [TEST_SUITE][FAILED] - TS05 Reject Replacement XLC Online: Test Cases/Main TC/XLC Approval/XLCO002b Update and verification Data Replacement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at XLCO002b Update and verification Data Replacement.run(XLCO002b Update and verification Data Replacement:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747702758961.run(TempTestSuite1747702758961.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/General/obj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at LIB003 Select from Dropdown.run(LIB003 Select from Dropdown:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//p-dropdown[@formcontrolname='iccidCheckStatus']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-out>
+      <system-err><![CDATA[2025-05-20 07:59:43 - [TEST_SUITE][FAILED] - TS05 Reject Replacement XLC Online: Test Cases/Main TC/XLC Approval/XLCO002b Update and verification Data Replacement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Library/LIB003 Select from Dropdown' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at XLCO002b Update and verification Data Replacement.run(XLCO002b Update and verification Data Replacement:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747702758961.run(TempTestSuite1747702758961.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/General/obj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at LIB003 Select from Dropdown.run(LIB003 Select from Dropdown:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/General/obj' located by '//p-dropdown[@formcontrolname='iccidCheckStatus']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+   </testsuite>
+</testsuites>

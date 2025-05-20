@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS02 Approve Reactivation XLC Online,Chrome 136.0.0.0,,,2025-05-20 11:25:48,2025-05-20 11:27:14,1m - 26.885s,PASSED
+,,,,,,,
+Test Cases/Reused TC/2. Credential/Login,Chrome 136.0.0.0,,,2025-05-20 11:25:48,2025-05-20 11:26:20,32.184s,PASSED
+openBrowser(URL),Chrome 136.0.0.0,,,2025-05-20 11:25:49,2025-05-20 11:25:57,8.299s,PASSED
+maximizeWindow(),Chrome 136.0.0.0,,,2025-05-20 11:25:57,2025-05-20 11:25:57,0.140s,PASSED
+enableSmartWait(),Chrome 136.0.0.0,,,2025-05-20 11:25:57,2025-05-20 11:25:57,0.023s,PASSED
+"click(findTestObject(""Spesific/btn Login""))",Chrome 136.0.0.0,,,2025-05-20 11:25:57,2025-05-20 11:25:58,0.927s,PASSED
+"setText(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@name"", ""val"":""loginfmt""]), username)",Chrome 136.0.0.0,,,2025-05-20 11:25:58,2025-05-20 11:25:59,0.955s,PASSED
+delay(2),Chrome 136.0.0.0,,,2025-05-20 11:25:59,2025-05-20 11:26:01,2.043s,PASSED
+"click(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@id"", ""val"":""idSIButton9""]))",Chrome 136.0.0.0,,,2025-05-20 11:26:01,2025-05-20 11:26:02,0.454s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:26:02,2025-05-20 11:26:04,2.034s,PASSED
+"setEncryptedText(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@name"", ""val"":""passwd""]), encriptPassword)",Chrome 136.0.0.0,,,2025-05-20 11:26:04,2025-05-20 11:26:04,0.386s,PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:26:04,2025-05-20 11:26:05,1.009s,PASSED
+"click(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@id"", ""val"":""idSIButton9""]))",Chrome 136.0.0.0,,,2025-05-20 11:26:05,2025-05-20 11:26:06,0.585s,PASSED
+"if (verifyElementPresent(findTestObject(""General/obj"", [""obj"":""div"", ""attr"":""@id"", ""val"":""idDiv_SAOTCAS_Description""]), 5, OPTIONAL))",Chrome 136.0.0.0,,,2025-05-20 11:26:06,2025-05-20 11:26:13,6.815s,PASSED
+"if (verifyElementPresent(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@name"", ""val"":""otc""]), 5, OPTIONAL))",Chrome 136.0.0.0,,,2025-05-20 11:26:13,2025-05-20 11:26:19,6.785s,PASSED
+"waitForElementClickable(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@id"", ""val"":""idSIButton9""]), 5)",Chrome 136.0.0.0,,,2025-05-20 11:26:19,2025-05-20 11:26:20,0.361s,PASSED
+"click(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@id"", ""val"":""idSIButton9""]))",Chrome 136.0.0.0,,,2025-05-20 11:26:20,2025-05-20 11:26:20,0.672s,PASSED
+,,,,,,,
+Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID,Chrome 136.0.0.0,,,2025-05-20 11:26:21,2025-05-20 11:26:27,6.879s,PASSED
+"click(findTestObject(""Spesific/MenuMain"", [""mainMenu"":""Customer Support""]))",Chrome 136.0.0.0,,,2025-05-20 11:26:21,2025-05-20 11:26:23,2.265s,PASSED
+"click(findTestObject(""Spesific/MenuSub"", [""subMenu"":""XL Center Approval""]))",Chrome 136.0.0.0,,,2025-05-20 11:26:23,2025-05-20 11:26:24,0.366s,PASSED
+"setText(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@formcontrolname"", ""val"":""ticketId""]), ApplicationID)",Chrome 136.0.0.0,,,2025-05-20 11:26:24,2025-05-20 11:26:24,0.600s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""serviceType"", ""selectedOption"":serviceType], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:26:24,2025-05-20 11:26:26,1.558s,PASSED
+"if (serviceType == ""Reactivation"")",Chrome 136.0.0.0,,,2025-05-20 11:26:26,2025-05-20 11:26:27,0.817s,PASSED
+"click(findTestObject(""General/obj contains"", [""obj"":""button"", ""attr"":""text()"", ""val"":""Search""]))",Chrome 136.0.0.0,,,2025-05-20 11:26:27,2025-05-20 11:26:27,0.382s,PASSED
+takeScreenshot(),Chrome 136.0.0.0,,,2025-05-20 11:26:27,2025-05-20 11:26:27,0.319s,PASSED
+,,,,,,,
+Test Cases/Main TC/XLC Approval/XLCO002a Update and verification Data Reactivation,Chrome 136.0.0.0,,,2025-05-20 11:26:27,2025-05-20 11:27:14,46.979s,PASSED
+delay(2),Chrome 136.0.0.0,,,2025-05-20 11:26:28,2025-05-20 11:26:30,2.022s,PASSED
+"scrollToElement(findTestObject(""General/obj contains"", [""obj"":""img"", ""attr"":""@src"", ""val"":""eye""]), 5)",Chrome 136.0.0.0,,,2025-05-20 11:26:30,2025-05-20 11:26:35,4.470s,PASSED
+"click(findTestObject(""General/obj contains"", [""obj"":""img"", ""attr"":""@src"", ""val"":""eye""]))",Chrome 136.0.0.0,,,2025-05-20 11:26:35,2025-05-20 11:26:35,0.361s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.0.0,,,2025-05-20 11:26:35,2025-05-20 11:26:36,1.270s,PASSED
+"click(findTestObject(""General/obj contains"", [""obj"":""button"", ""attr"":""text()"", ""val"":""Update Data""]))",Chrome 136.0.0.0,,,2025-05-20 11:26:36,2025-05-20 11:26:37,0.410s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""iccidCheckStatus"", ""selectedOption"":iccidCheckStatus], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:26:37,2025-05-20 11:26:38,0.834s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""nikCheckStatus"", ""selectedOption"":nikCheckStatus], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:26:38,2025-05-20 11:26:38,0.796s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""nameCheckStatus"", ""selectedOption"":nameCheckStatus], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:26:38,2025-05-20 11:26:39,0.867s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""cardImageCheckStatus"", ""selectedOption"":ValidationImage], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:26:39,2025-05-20 11:26:40,0.829s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""selfieImageCheckStatus"", ""selectedOption"":ValidationImage], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:26:40,2025-05-20 11:26:41,0.787s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""iccidImageCheckStatus"", ""selectedOption"":ValidationImage], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:26:41,2025-05-20 11:26:42,0.747s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""signatureCheckStatus"", ""selectedOption"":ValidationImage], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:26:42,2025-05-20 11:26:43,0.867s,PASSED
+"click(findTestObject(""General/obj contains"", [""obj"":""button"", ""attr"":""text()"", ""val"":""Capture""]))",Chrome 136.0.0.0,,,2025-05-20 11:26:43,2025-05-20 11:26:43,0.531s,PASSED
+additionalKeyword.allowBrowserPermission(),Chrome 136.0.0.0,,,2025-05-20 11:26:43,2025-05-20 11:26:51,8.215s,PASSED
+"click(findTestObject(""Spesific/btn Capturephoto""))",Chrome 136.0.0.0,,,2025-05-20 11:26:51,2025-05-20 11:26:52,0.486s,PASSED
+"click(findTestObject(""General/obj contains"", [""obj"":""button"", ""attr"":""text()"", ""val"":""Save and Exit""]))",Chrome 136.0.0.0,,,2025-05-20 11:26:52,2025-05-20 11:26:52,0.403s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""videoCallStatus"", ""selectedOption"":videoCallStatus], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:26:52,2025-05-20 11:27:00,7.349s,PASSED
+"setText(findTestObject(""General/obj"", [""obj"":""textarea"", ""attr"":""@formcontrolname"", ""val"":""note""]), ""testing"")",Chrome 136.0.0.0,,,2025-05-20 11:27:00,2025-05-20 11:27:00,0.456s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.0.0,,,2025-05-20 11:27:00,2025-05-20 11:27:03,2.632s,PASSED
+"click(findTestObject(""General/obj contains"", [""obj"":""button"", ""attr"":""text()"", ""val"":""Save""]))",Chrome 136.0.0.0,,,2025-05-20 11:27:03,2025-05-20 11:27:03,0.355s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.0.0,,,2025-05-20 11:27:03,2025-05-20 11:27:05,2.418s,PASSED
+"click(findTestObject(""General/obj contains"", [""obj"":""button"", ""attr"":""text()"", ""val"":""Back""]))",Chrome 136.0.0.0,,,2025-05-20 11:27:05,2025-05-20 11:27:14,8.735s,PASSED
+takeScreenshot(),Chrome 136.0.0.0,,,2025-05-20 11:27:14,2025-05-20 11:27:14,0.303s,PASSED

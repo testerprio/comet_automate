@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS05 Reject Replacement XLC Online,Chrome 136.0.0.0,,,2025-05-20 11:18:45,2025-05-20 11:19:57,1m - 11.764s,PASSED
+,,,,,,,
+Test Cases/Reused TC/2. Credential/Login,Chrome 136.0.0.0,,,2025-05-20 11:18:46,2025-05-20 11:19:16,30.315s,PASSED
+openBrowser(URL),Chrome 136.0.0.0,,,2025-05-20 11:18:47,2025-05-20 11:18:52,5.689s,PASSED
+maximizeWindow(),Chrome 136.0.0.0,,,2025-05-20 11:18:52,2025-05-20 11:18:52,0.123s,PASSED
+enableSmartWait(),Chrome 136.0.0.0,,,2025-05-20 11:18:52,2025-05-20 11:18:52,0.024s,PASSED
+"click(findTestObject(""Spesific/btn Login""))",Chrome 136.0.0.0,,,2025-05-20 11:18:52,2025-05-20 11:18:54,1.515s,PASSED
+"setText(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@name"", ""val"":""loginfmt""]), username)",Chrome 136.0.0.0,,,2025-05-20 11:18:54,2025-05-20 11:18:55,0.795s,PASSED
+delay(2),Chrome 136.0.0.0,,,2025-05-20 11:18:55,2025-05-20 11:18:57,2.041s,PASSED
+"click(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@id"", ""val"":""idSIButton9""]))",Chrome 136.0.0.0,,,2025-05-20 11:18:57,2025-05-20 11:18:57,0.400s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:18:57,2025-05-20 11:18:59,2.020s,PASSED
+"setEncryptedText(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@name"", ""val"":""passwd""]), encriptPassword)",Chrome 136.0.0.0,,,2025-05-20 11:18:59,2025-05-20 11:19:00,0.491s,PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:19:00,2025-05-20 11:19:01,1.004s,PASSED
+"click(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@id"", ""val"":""idSIButton9""]))",Chrome 136.0.0.0,,,2025-05-20 11:19:01,2025-05-20 11:19:02,1.083s,PASSED
+"if (verifyElementPresent(findTestObject(""General/obj"", [""obj"":""div"", ""attr"":""@id"", ""val"":""idDiv_SAOTCAS_Description""]), 5, OPTIONAL))",Chrome 136.0.0.0,,,2025-05-20 11:19:02,2025-05-20 11:19:09,6.905s,PASSED
+"if (verifyElementPresent(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@name"", ""val"":""otc""]), 5, OPTIONAL))",Chrome 136.0.0.0,,,2025-05-20 11:19:09,2025-05-20 11:19:15,6.745s,PASSED
+"waitForElementClickable(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@id"", ""val"":""idSIButton9""]), 5)",Chrome 136.0.0.0,,,2025-05-20 11:19:15,2025-05-20 11:19:16,0.378s,PASSED
+"click(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@id"", ""val"":""idSIButton9""]))",Chrome 136.0.0.0,,,2025-05-20 11:19:16,2025-05-20 11:19:16,0.570s,PASSED
+,,,,,,,
+Test Cases/Main TC/XLC Approval/XLCO001 Filter based on TicketID,Chrome 136.0.0.0,,,2025-05-20 11:19:16,2025-05-20 11:19:22,5.797s,PASSED
+"click(findTestObject(""Spesific/MenuMain"", [""mainMenu"":""Customer Support""]))",Chrome 136.0.0.0,,,2025-05-20 11:19:17,2025-05-20 11:19:19,2.128s,PASSED
+"click(findTestObject(""Spesific/MenuSub"", [""subMenu"":""XL Center Approval""]))",Chrome 136.0.0.0,,,2025-05-20 11:19:19,2025-05-20 11:19:19,0.356s,PASSED
+"setText(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@formcontrolname"", ""val"":""ticketId""]), ApplicationID)",Chrome 136.0.0.0,,,2025-05-20 11:19:19,2025-05-20 11:19:20,0.512s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""serviceType"", ""selectedOption"":serviceType], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:19:20,2025-05-20 11:19:21,1.507s,PASSED
+"if (serviceType == ""Reactivation"")",Chrome 136.0.0.0,,,2025-05-20 11:19:21,2025-05-20 11:19:21,0.001s,PASSED
+"click(findTestObject(""General/obj contains"", [""obj"":""button"", ""attr"":""text()"", ""val"":""Search""]))",Chrome 136.0.0.0,,,2025-05-20 11:19:21,2025-05-20 11:19:22,0.427s,PASSED
+takeScreenshot(),Chrome 136.0.0.0,,,2025-05-20 11:19:22,2025-05-20 11:19:22,0.304s,PASSED
+,,,,,,,
+Test Cases/Main TC/XLC Approval/XLCO002b Update and verification Data Replacement,Chrome 136.0.0.0,,,2025-05-20 11:19:22,2025-05-20 11:19:57,34.942s,PASSED
+delay(2),Chrome 136.0.0.0,,,2025-05-20 11:19:23,2025-05-20 11:19:25,2.027s,PASSED
+"scrollToElement(findTestObject(""General/obj contains"", [""obj"":""img"", ""attr"":""@src"", ""val"":""eye""]), 5)",Chrome 136.0.0.0,,,2025-05-20 11:19:25,2025-05-20 11:19:25,0.225s,PASSED
+"click(findTestObject(""General/obj contains"", [""obj"":""img"", ""attr"":""@src"", ""val"":""eye""]))",Chrome 136.0.0.0,,,2025-05-20 11:19:25,2025-05-20 11:19:26,0.323s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.0.0,,,2025-05-20 11:19:26,2025-05-20 11:19:27,1.339s,PASSED
+"click(findTestObject(""General/obj contains"", [""obj"":""button"", ""attr"":""text()"", ""val"":""Update Data""]))",Chrome 136.0.0.0,,,2025-05-20 11:19:27,2025-05-20 11:19:31,3.749s,PASSED
+"setText(findTestObject(""General/obj"", [""obj"":""input"", ""attr"":""@formcontrolname"", ""val"":""newICCID""]), newICCID)",Chrome 136.0.0.0,,,2025-05-20 11:19:31,2025-05-20 11:19:31,0.492s,PASSED
+"tipeLayanan = getText(findTestObject(""Spesific/3. XLC Approval/textfield tipeLayanan""))",Chrome 136.0.0.0,,,2025-05-20 11:19:31,2025-05-20 11:19:31,0.243s,PASSED
+reasonReplace = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 136.0.0.0,,,2025-05-20 11:19:31,2025-05-20 11:19:31,0.000s,PASSED
+"if (tipeLayanan == ""Replacement"")",Chrome 136.0.0.0,,,2025-05-20 11:19:31,2025-05-20 11:19:31,0.000s,PASSED
+"if (tipeLayanan == ""Replacement"" && reasonReplace != ""Hilang"" || tipeLayanan == ""Upgrade Sim Card"")",Chrome 136.0.0.0,,,2025-05-20 11:19:31,2025-05-20 11:19:33,1.700s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""nikCheckStatus"", ""selectedOption"":nikCheckStatus], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:19:33,2025-05-20 11:19:34,0.849s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""nameCheckStatus"", ""selectedOption"":nameCheckStatus], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:19:34,2025-05-20 11:19:35,0.855s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""cardImageCheckStatus"", ""selectedOption"":ValidationImage], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:19:35,2025-05-20 11:19:36,0.781s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""selfieImageCheckStatus"", ""selectedOption"":ValidationImage], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:19:36,2025-05-20 11:19:36,0.806s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""signatureCheckStatus"", ""selectedOption"":ValidationImage], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:19:36,2025-05-20 11:19:37,0.826s,PASSED
+"click(findTestObject(""General/obj contains"", [""obj"":""button"", ""attr"":""text()"", ""val"":""Capture""]))",Chrome 136.0.0.0,,,2025-05-20 11:19:37,2025-05-20 11:19:38,0.547s,PASSED
+additionalKeyword.allowBrowserPermission(),Chrome 136.0.0.0,,,2025-05-20 11:19:38,2025-05-20 11:19:46,8.252s,PASSED
+"click(findTestObject(""Spesific/btn Capturephoto""))",Chrome 136.0.0.0,,,2025-05-20 11:19:46,2025-05-20 11:19:47,0.512s,PASSED
+"click(findTestObject(""General/obj contains"", [""obj"":""button"", ""attr"":""text()"", ""val"":""Save and Exit""]))",Chrome 136.0.0.0,,,2025-05-20 11:19:47,2025-05-20 11:19:47,0.313s,PASSED
+"callTestCase(findTestCase(""Library/LIB003 Select from Dropdown""), [""selectionName"":""videoCallStatus"", ""selectedOption"":videoCallStatus], STOP_ON_FAILURE)",Chrome 136.0.0.0,,,2025-05-20 11:19:47,2025-05-20 11:19:48,1.411s,PASSED
+"setText(findTestObject(""General/obj"", [""obj"":""textarea"", ""attr"":""@formcontrolname"", ""val"":""note""]), ""testing"")",Chrome 136.0.0.0,,,2025-05-20 11:19:48,2025-05-20 11:19:49,0.443s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.0.0,,,2025-05-20 11:19:49,2025-05-20 11:19:51,2.438s,PASSED
+"click(findTestObject(""General/obj contains"", [""obj"":""button"", ""attr"":""text()"", ""val"":""Save""]))",Chrome 136.0.0.0,,,2025-05-20 11:19:51,2025-05-20 11:19:51,0.292s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.0.0,,,2025-05-20 11:19:51,2025-05-20 11:19:54,2.491s,PASSED
+"click(findTestObject(""General/obj contains"", [""obj"":""button"", ""attr"":""text()"", ""val"":""Back""]))",Chrome 136.0.0.0,,,2025-05-20 11:19:54,2025-05-20 11:19:57,2.953s,PASSED
+takeScreenshot(),Chrome 136.0.0.0,,,2025-05-20 11:19:57,2025-05-20 11:19:57,0.281s,PASSED

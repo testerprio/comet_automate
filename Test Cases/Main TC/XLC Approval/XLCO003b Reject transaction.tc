@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>XLCO003b Reject transaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e14aff0-fdcc-4b91-8c82-dea386e4f999</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56205f52-6e4f-45fe-aa1f-2a9c10af5d6e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e7d1b078-c6e8-4f27-afa2-bf631b34847e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>686cf127-7b17-43fc-9810-dd72a3f80d04</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1001235'</defaultValue>
+      <description></description>
+      <id>56205f52-6e4f-45fe-aa1f-2a9c10af5d6e</id>
+      <masked>false</masked>
+      <name>applicationID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e7d1b078-c6e8-4f27-afa2-bf631b34847e</id>
+      <masked>false</masked>
+      <name>serviceType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>686cf127-7b17-43fc-9810-dd72a3f80d04</id>
+      <masked>false</masked>
+      <name>channel</name>
+   </variable>
+</TestCaseEntity>

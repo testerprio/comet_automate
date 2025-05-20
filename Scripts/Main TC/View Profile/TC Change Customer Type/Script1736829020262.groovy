@@ -30,7 +30,7 @@ WebUI.click(findTestObject('General/obj contains', [('obj') : 'button', ('attr')
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Spesific/View Profile/Icon editCustType'))
+WebUI.click(findTestObject('Spesific/2. View Profile/Icon editCustType'))
 
 WebUI.callTestCase(findTestCase('Reused TC/1. General/Select dropdown by Value'), [('selectName') : 'type', ('valueofOption') : customerType], 
     FailureHandling.STOP_ON_FAILURE)
